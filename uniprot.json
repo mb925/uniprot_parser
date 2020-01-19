@@ -1,0 +1,1031 @@
+{
+  "ROOT": {
+    "__count": 1,
+    "__values": {},
+    "accession": {
+      "__count": 1,
+      "__values": {},
+      "string": {
+        "__count": 1,
+        "__values": {
+          "Q6ND47": 1
+        }
+      }
+    },
+    "id": {
+      "__count": 1,
+      "__values": {},
+      "string": {
+        "__count": 1,
+        "__values": {
+          "RBLL2_RHOP...": 1
+        }
+      }
+    },
+    "proteinExistence": {
+      "__count": 1,
+      "__values": {},
+      "string": {
+        "__count": 1,
+        "__values": {
+          "Evidence a...": 1
+        }
+      }
+    },
+    "info": {
+      "__count": 1,
+      "__values": {},
+      "type": {
+        "__count": 1,
+        "__values": {},
+        "string": {
+          "__count": 1,
+          "__values": {
+            "Swiss-Prot": 1
+          }
+        }
+      },
+      "created": {
+        "__count": 1,
+        "__values": {},
+        "string": {
+          "__count": 1,
+          "__values": {
+            "2005-11-08": 1
+          }
+        }
+      },
+      "modified": {
+        "__count": 1,
+        "__values": {},
+        "string": {
+          "__count": 1,
+          "__values": {
+            "2019-12-11": 1
+          }
+        }
+      },
+      "version": {
+        "__count": 1,
+        "__values": {},
+        "number": {
+          "__count": 1,
+          "__values": {
+            "83": 1
+          }
+        }
+      }
+    },
+    "organism": {
+      "__count": 1,
+      "__values": {},
+      "taxonomy": {
+        "__count": 1,
+        "__values": {},
+        "number": {
+          "__count": 1,
+          "__values": {
+            "258594": 1
+          }
+        }
+      },
+      "names": {
+        "__count": 1,
+        "__values": {},
+        "_arr": {
+          "__count": 1,
+          "__values": {},
+          "type": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "scientific": 1
+              }
+            }
+          },
+          "value": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "Rhodopseud...": 1
+              }
+            }
+          }
+        }
+      },
+      "lineage": {
+        "__count": 1,
+        "__values": {},
+        "_arr": {
+          "__count": 6,
+          "__values": {},
+          "string": {
+            "__count": 6,
+            "__values": {
+              "Bacteria": 1,
+              "Proteobact...": 1,
+              "Alphaprote...": 1,
+              "Rhizobiale...": 1,
+              "Bradyrhizo...": 1,
+              "Rhodopseud...": 1
+            }
+          }
+        }
+      }
+    },
+    "protein": {
+      "__count": 1,
+      "__values": {},
+      "recommendedName": {
+        "__count": 1,
+        "__values": {},
+        "fullName": {
+          "__count": 1,
+          "__values": {},
+          "value": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "Ribulose b...": 1
+              }
+            }
+          }
+        },
+        "shortName": {
+          "__count": 1,
+          "__values": {},
+          "_arr": {
+            "__count": 1,
+            "__values": {},
+            "value": {
+              "__count": 1,
+              "__values": {},
+              "string": {
+                "__count": 1,
+                "__values": {
+                  "RuBisCO-li...": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "gene": {
+      "__count": 1,
+      "__values": {},
+      "_arr": {
+        "__count": 1,
+        "__values": {},
+        "name": {
+          "__count": 1,
+          "__values": {},
+          "value": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "rlp2": 1
+              }
+            }
+          }
+        },
+        "olnNames": {
+          "__count": 1,
+          "__values": {},
+          "_arr": {
+            "__count": 1,
+            "__values": {},
+            "value": {
+              "__count": 1,
+              "__values": {},
+              "string": {
+                "__count": 1,
+                "__values": {
+                  "RPA0262": 1
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "comments": {
+      "__count": 1,
+      "__values": {},
+      "_arr": {
+        "__count": 4,
+        "__values": {},
+        "type": {
+          "__count": 4,
+          "__values": {},
+          "string": {
+            "__count": 4,
+            "__values": {
+              "FUNCTION": 1,
+              "COFACTOR": 1,
+              "SUBUNIT": 1,
+              "SIMILARITY": 1
+            }
+          }
+        },
+        "text": {
+          "__count": 4,
+          "__values": {},
+          "_arr": {
+            "__count": 4,
+            "__values": {},
+            "value": {
+              "__count": 4,
+              "__values": {},
+              "string": {
+                "__count": 4,
+                "__values": {
+                  "May be inv...": 1,
+                  "Binds 1 Mg...": 1,
+                  "Homodimer": 1,
+                  "Belongs to...": 1
+                }
+              }
+            },
+            "evidences": {
+              "__count": 3,
+              "__values": {},
+              "_arr": {
+                "__count": 3,
+                "__values": {},
+                "code": {
+                  "__count": 3,
+                  "__values": {},
+                  "string": {
+                    "__count": 3,
+                    "__values": {
+                      "ECO:000025...": 1,
+                      "ECO:000030...": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "cofactors": {
+          "__count": 1,
+          "__values": {},
+          "_arr": {
+            "__count": 1,
+            "__values": {},
+            "name": {
+              "__count": 1,
+              "__values": {},
+              "string": {
+                "__count": 1,
+                "__values": {
+                  "Mg(2+)": 1
+                }
+              }
+            },
+            "dbReference": {
+              "__count": 1,
+              "__values": {},
+              "type": {
+                "__count": 1,
+                "__values": {},
+                "string": {
+                  "__count": 1,
+                  "__values": {
+                    "CHEBI": 1
+                  }
+                }
+              },
+              "id": {
+                "__count": 1,
+                "__values": {},
+                "string": {
+                  "__count": 1,
+                  "__values": {
+                    "CHEBI:1842...": 1
+                  }
+                }
+              }
+            },
+            "evidences": {
+              "__count": 1,
+              "__values": {},
+              "_arr": {
+                "__count": 1,
+                "__values": {},
+                "code": {
+                  "__count": 1,
+                  "__values": {},
+                  "string": {
+                    "__count": 1,
+                    "__values": {
+                      "ECO:000025...": 1
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "features": {
+      "__count": 1,
+      "__values": {},
+      "_arr": {
+        "__count": 42,
+        "__values": {},
+        "type": {
+          "__count": 42,
+          "__values": {},
+          "string": {
+            "__count": 42,
+            "__values": {
+              "CHAIN": 1,
+              "METAL": 1,
+              "MOD_RES": 1,
+              "HELIX": 1,
+              "STRAND": 1,
+              "TURN": 1
+            }
+          }
+        },
+        "category": {
+          "__count": 42,
+          "__values": {},
+          "string": {
+            "__count": 42,
+            "__values": {
+              "MOLECULE_P...": 1,
+              "DOMAINS_AN...": 1,
+              "PTM": 1,
+              "STRUCTURAL": 1
+            }
+          }
+        },
+        "ftId": {
+          "__count": 1,
+          "__values": {},
+          "string": {
+            "__count": 1,
+            "__values": {
+              "PRO_000006...": 1
+            }
+          }
+        },
+        "description": {
+          "__count": 5,
+          "__values": {},
+          "string": {
+            "__count": 5,
+            "__values": {
+              "Ribulose b...": 1,
+              "Magnesium;...": 1,
+              "Magnesium": 1,
+              "N6-carboxy...": 1
+            }
+          }
+        },
+        "begin": {
+          "__count": 42,
+          "__values": {},
+          "number": {
+            "__count": 42,
+            "__values": {
+              "1": 1,
+              "198": 1,
+              "200": 1,
+              "201": 1,
+              "4": 1,
+              "13": 1,
+              "18": 1,
+              "21": 1,
+              "34": 1,
+              "60": 1,
+              "66": 1,
+              "91": 1,
+              "102": 1,
+              "109": 1,
+              "119": 1,
+              "129": 1,
+              "139": 1,
+              "151": 1,
+              "166": 1,
+              "180": 1,
+              "195": 1,
+              "211": 1,
+              "234": 1,
+              "245": 1,
+              "260": 1,
+              "265": 1,
+              "...": 1
+            }
+          }
+        },
+        "end": {
+          "__count": 42,
+          "__values": {},
+          "number": {
+            "__count": 42,
+            "__values": {
+              "432": 1,
+              "198": 1,
+              "200": 1,
+              "201": 1,
+              "9": 1,
+              "15": 1,
+              "20": 1,
+              "32": 1,
+              "45": 1,
+              "63": 1,
+              "74": 1,
+              "101": 1,
+              "104": 1,
+              "116": 1,
+              "122": 1,
+              "136": 1,
+              "142": 1,
+              "159": 1,
+              "170": 1,
+              "192": 1,
+              "229": 1,
+              "238": 1,
+              "255": 1,
+              "264": 1,
+              "268": 1,
+              "277": 1,
+              "...": 1
+            }
+          }
+        },
+        "molecule": {
+          "__count": 42,
+          "__values": {},
+          "string": {
+            "__count": 42,
+            "__values": {
+              "": 1
+            }
+          }
+        },
+        "evidences": {
+          "__count": 41,
+          "__values": {},
+          "_arr": {
+            "__count": 41,
+            "__values": {},
+            "code": {
+              "__count": 41,
+              "__values": {},
+              "string": {
+                "__count": 41,
+                "__values": {
+                  "ECO:000025...": 1,
+                  "ECO:000024...": 1
+                }
+              }
+            },
+            "source": {
+              "__count": 37,
+              "__values": {},
+              "name": {
+                "__count": 37,
+                "__values": {},
+                "string": {
+                  "__count": 37,
+                  "__values": {
+                    "PDB": 1
+                  }
+                }
+              },
+              "id": {
+                "__count": 37,
+                "__values": {},
+                "string": {
+                  "__count": 37,
+                  "__values": {
+                    "2QYG": 1
+                  }
+                }
+              },
+              "url": {
+                "__count": 37,
+                "__values": {},
+                "string": {
+                  "__count": 37,
+                  "__values": {
+                    "https://ww...": 1
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "dbReferences": {
+      "__count": 1,
+      "__values": {},
+      "_arr": {
+        "__count": 35,
+        "__values": {},
+        "type": {
+          "__count": 35,
+          "__values": {},
+          "string": {
+            "__count": 35,
+            "__values": {
+              "EMBL": 1,
+              "RefSeq": 1,
+              "PDB": 1,
+              "PDBsum": 1,
+              "SMR": 1,
+              "STRING": 1,
+              "PRIDE": 1,
+              "EnsemblBac...": 1,
+              "GeneID": 1,
+              "KEGG": 1,
+              "eggNOG": 1,
+              "HOGENOM": 1,
+              "KO": 1,
+              "OMA": 1,
+              "PhylomeDB": 1,
+              "BioCyc": 1,
+              "Evolutiona...": 1,
+              "Proteomes": 1,
+              "GO": 1,
+              "Gene3D": 1,
+              "InterPro": 1,
+              "PANTHER": 1,
+              "Pfam": 1,
+              "SFLD": 1,
+              "SUPFAM": 1
+            }
+          }
+        },
+        "id": {
+          "__count": 35,
+          "__values": {},
+          "string": {
+            "__count": 34,
+            "__values": {
+              "BX572593": 1,
+              "WP_0111558...": 1,
+              "2QYG": 1,
+              "Q6ND47": 1,
+              "258594.RPA...": 1,
+              "CAE25706": 1,
+              "rpa:RPA026...": 1,
+              "ENOG4105DT...": 1,
+              "COG1850": 1,
+              "HOG0002308...": 1,
+              "K01601": 1,
+              "AHFPFIA": 1,
+              "RPAL258594...": 1,
+              "UP00000142...": 1,
+              "GO:0000287": 1,
+              "GO:0016984": 1,
+              "GO:0015977": 1,
+              "3.20.20.11...": 1,
+              "3.30.70.15...": 1,
+              "IPR033966": 1,
+              "IPR000685": 1,
+              "IPR036376": 1,
+              "IPR017443": 1,
+              "IPR036422": 1,
+              "PTHR42704": 1,
+              "PF00016": 1,
+              "...": 1
+            }
+          },
+          "number": {
+            "__count": 1,
+            "__values": {
+              "41374671": 1
+            }
+          }
+        },
+        "properties": {
+          "__count": 23,
+          "__values": {},
+          "molecule type": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "Genomic_DN...": 1
+              }
+            }
+          },
+          "protein sequence ID": {
+            "__count": 2,
+            "__values": {},
+            "string": {
+              "__count": 2,
+              "__values": {
+                "CAE25706.1": 1,
+                "CAE25706": 1
+              }
+            }
+          },
+          "nucleotide sequence ID": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "NC_005296....": 1
+              }
+            }
+          },
+          "method": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "X-ray": 1
+              }
+            }
+          },
+          "chains": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "A/B/C/D=1-...": 1
+              }
+            }
+          },
+          "resolution": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "3.30 A": 1
+              }
+            }
+          },
+          "gene ID": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "RPA0262": 1
+              }
+            }
+          },
+          "taxonomic scope": {
+            "__count": 2,
+            "__values": {},
+            "string": {
+              "__count": 2,
+              "__values": {
+                "Bacteria": 1,
+                "LUCA": 1
+              }
+            }
+          },
+          "component": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "Chromosome": 1
+              }
+            }
+          },
+          "term": {
+            "__count": 3,
+            "__values": {},
+            "string": {
+              "__count": 3,
+              "__values": {
+                "F:magnesiu...": 1,
+                "F:ribulose...": 1,
+                "P:carbon f...": 1
+              }
+            }
+          },
+          "source": {
+            "__count": 3,
+            "__values": {},
+            "string": {
+              "__count": 3,
+              "__values": {
+                "IEA:InterP...": 1
+              }
+            }
+          },
+          "match status": {
+            "__count": 8,
+            "__values": {},
+            "number": {
+              "__count": 8,
+              "__values": {
+                "1": 1
+              }
+            }
+          },
+          "entry name": {
+            "__count": 11,
+            "__values": {},
+            "string": {
+              "__count": 11,
+              "__values": {
+                "RuBisCO": 1,
+                "RuBisCO_ls...": 1,
+                "PTHR42704": 1,
+                "RuBisCO_la...": 1,
+                "SSF51649": 1,
+                "SSF54966": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "keywords": {
+      "__count": 1,
+      "__values": {},
+      "_arr": {
+        "__count": 4,
+        "__values": {},
+        "value": {
+          "__count": 4,
+          "__values": {},
+          "string": {
+            "__count": 4,
+            "__values": {
+              "3D-structu...": 1,
+              "Magnesium": 1,
+              "Metal-bind...": 1,
+              "Reference ...": 1
+            }
+          }
+        }
+      }
+    },
+    "references": {
+      "__count": 1,
+      "__values": {},
+      "_arr": {
+        "__count": 1,
+        "__values": {},
+        "citation": {
+          "__count": 1,
+          "__values": {},
+          "type": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "journal ar...": 1
+              }
+            }
+          },
+          "publicationDate": {
+            "__count": 1,
+            "__values": {},
+            "number": {
+              "__count": 1,
+              "__values": {
+                "2004": 1
+              }
+            }
+          },
+          "title": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "Complete g...": 1
+              }
+            }
+          },
+          "authors": {
+            "__count": 1,
+            "__values": {},
+            "_arr": {
+              "__count": 19,
+              "__values": {},
+              "string": {
+                "__count": 19,
+                "__values": {
+                  "Larimer F....": 1,
+                  "Chain P.": 1,
+                  "Hauser L.": 1,
+                  "Lamerdin J...": 1,
+                  "Malfatti S...": 1,
+                  "Do L.": 1,
+                  "Land M.L.": 1,
+                  "Pelletier ...": 1,
+                  "Beatty J.T...": 1,
+                  "Lang A.S.": 1,
+                  "Tabita F.R...": 1,
+                  "Gibson J.L...": 1,
+                  "Hanson T.E...": 1,
+                  "Bobst C.": 1,
+                  "Torres y T...": 1,
+                  "Peres C.": 1,
+                  "Harrison F...": 1,
+                  "Gibson J.": 1,
+                  "Harwood C....": 1
+                }
+              }
+            }
+          },
+          "publication": {
+            "__count": 1,
+            "__values": {},
+            "journalName": {
+              "__count": 1,
+              "__values": {},
+              "string": {
+                "__count": 1,
+                "__values": {
+                  "Nat. Biote...": 1
+                }
+              }
+            }
+          },
+          "location": {
+            "__count": 1,
+            "__values": {},
+            "volume": {
+              "__count": 1,
+              "__values": {},
+              "number": {
+                "__count": 1,
+                "__values": {
+                  "22": 1
+                }
+              }
+            },
+            "firstPage": {
+              "__count": 1,
+              "__values": {},
+              "number": {
+                "__count": 1,
+                "__values": {
+                  "55": 1
+                }
+              }
+            },
+            "lastPage": {
+              "__count": 1,
+              "__values": {},
+              "number": {
+                "__count": 1,
+                "__values": {
+                  "61": 1
+                }
+              }
+            }
+          },
+          "dbReferences": {
+            "__count": 1,
+            "__values": {},
+            "_arr": {
+              "__count": 2,
+              "__values": {},
+              "type": {
+                "__count": 2,
+                "__values": {},
+                "string": {
+                  "__count": 2,
+                  "__values": {
+                    "PubMed": 1,
+                    "DOI": 1
+                  }
+                }
+              },
+              "id": {
+                "__count": 2,
+                "__values": {},
+                "number": {
+                  "__count": 1,
+                  "__values": {
+                    "14704707": 1
+                  }
+                },
+                "string": {
+                  "__count": 1,
+                  "__values": {
+                    "10.1038/nb...": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "source": {
+          "__count": 1,
+          "__values": {},
+          "strain": {
+            "__count": 1,
+            "__values": {},
+            "_arr": {
+              "__count": 1,
+              "__values": {},
+              "value": {
+                "__count": 1,
+                "__values": {},
+                "string": {
+                  "__count": 1,
+                  "__values": {
+                    "ATCC BAA-9...": 1
+                  }
+                }
+              }
+            }
+          }
+        },
+        "scope": {
+          "__count": 1,
+          "__values": {},
+          "_arr": {
+            "__count": 1,
+            "__values": {},
+            "string": {
+              "__count": 1,
+              "__values": {
+                "NUCLEOTIDE...": 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "sequence": {
+      "__count": 1,
+      "__values": {},
+      "version": {
+        "__count": 1,
+        "__values": {},
+        "number": {
+          "__count": 1,
+          "__values": {
+            "1": 1
+          }
+        }
+      },
+      "length": {
+        "__count": 1,
+        "__values": {},
+        "number": {
+          "__count": 1,
+          "__values": {
+            "432": 1
+          }
+        }
+      },
+      "mass": {
+        "__count": 1,
+        "__values": {},
+        "number": {
+          "__count": 1,
+          "__values": {
+            "46464": 1
+          }
+        }
+      },
+      "modified": {
+        "__count": 1,
+        "__values": {},
+        "string": {
+          "__count": 1,
+          "__values": {
+            "2004-07-05": 1
+          }
+        }
+      },
+      "sequence": {
+        "__count": 1,
+        "__values": {},
+        "string": {
+          "__count": 1,
+          "__values": {
+            "MTPDDIAGFY...": 1
+          }
+        }
+      }
+    }
+  }
+}

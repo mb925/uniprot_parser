@@ -6,30 +6,34 @@ from json_parser.json_type import JsonType
 
 class JsonParser(object):
 
-	def __init__(self):
+	def __init__(self, out_path='./paths.json'):
 
 		self.parsed = None
 		self.paths = {}
 		self.restructured = {}
+		self.out_path = out_path
 
-	def parse(self, json_data, out_path='./paths.json', log_path='./paths_log.txt'):
+	def parse(self, json_data, out_path=None, log_path='./paths_log.txt'):
 
 		# reset paths
 		self.paths = {}
 
 		# open info files
 		log_file = open(log_path, 'w')
-		out_file = open(out_path, 'w')
+		out_file = None
+		if out_path:
+			out_file = open(out_path, 'w')
 
 		# parse input json
 		self.parsed = JsonDict(json_data, 'ROOT', 0, self.paths, log_file)
 
 		# save results
-		json.dump(self.paths, out_file, indent=2)
 		log_file.close()
-		out_file.close()
+		if out_file:
+			json.dump(self.paths, out_file, indent=2)
+			out_file.close()
 
-	def restructure(self, out_path='./restructured.json', log_path='./restructured_log.txt'):
+	def restructure(self):
 
 		for key in self.paths:
 			# set pointer to start position
@@ -41,14 +45,18 @@ class JsonParser(object):
 
 			ptr['__count'] += self.paths[key]['count']
 			for value in self.paths[key]['values']:
-				if len(ptr['__values']) > 25:
-					value = '...'
 				if value not in ptr['__values']:
-					ptr['__values'][value] = 1
+					if len(ptr['__values']) > 25:
+						if not '...' in ptr['__values']:
+							ptr['__values']['...'] = 1
+						else:
+							ptr['__values']['...'] += 1
+					else:
+						ptr['__values'][value] = 1
 				else:
 					ptr['__values'][value] += 1
 
 		# save result
-		restructured_file = open(out_path, 'w')
+		restructured_file = open(self.out_path, 'w')
 		json.dump(self.restructured, restructured_file, indent=2)
 		restructured_file.close()

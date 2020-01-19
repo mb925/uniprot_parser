@@ -1,3 +1,5 @@
+import sys
+
 from json_parser.json_type import JsonType
 
 
@@ -6,10 +8,13 @@ class JsonSimple(JsonType):
 	def __init__(self, value, name, depth, paths, log_file):
 
 		self.depth = depth
-		self.value = value
+		if value is None:
+			self.value = 'none'
+		else:
+			self.value = value
 
 		try:
-			float(value)
+			float(self.value)
 			super().__init__('number', name, depth, paths)
 			name = '%s%snumber' % (super().get_name(), JsonType.sep)
 
