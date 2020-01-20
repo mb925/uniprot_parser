@@ -3,14 +3,14 @@ from json_parser.json_type import JsonType
 
 class JsonDict(JsonType):
 
-	def __init__(self, adict, name, depth, paths, log_file):
+	def __init__(self, adict, name, depth, paths, aggregators, log_file):
 
 		# avoid recursive import problem
 		from json_parser.json_list import JsonList
 		from json_parser.json_simple import JsonSimple
 
 		# init parent class
-		super().__init__('dict', name, depth, paths)
+		super().__init__('dict', name, depth, paths, aggregators)
 
 		# init children
 		self.values = {}
@@ -24,11 +24,11 @@ class JsonDict(JsonType):
 
 			name = '%s.%s' % (super().get_name(), k)
 			if type(val) == dict:
-				self.values[k] = JsonDict(val, name, depth+1, paths, log_file)
+				self.values[k] = JsonDict(val, name, depth+1, paths, aggregators, log_file)
 			elif type(val) == list:
-				self.values[k] = JsonList(val, name, depth+1, paths, log_file)
+				self.values[k] = JsonList(val, name, depth+1, paths, aggregators, log_file)
 			else:
-				self.values[k] = JsonSimple(val, name, depth+1, paths, log_file)
+				self.values[k] = JsonSimple(val, name, depth+1, paths, aggregators, log_file)
 
 	def __str__(self):
 

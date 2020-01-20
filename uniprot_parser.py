@@ -11,7 +11,15 @@ class UniprotParser(object):
 		self.log_file = open(log_path, 'w')
 		self.data_fetcher = DataFetcher()
 		self.uniprot_parser = JsonParser(out_path='./uniprot.json')
-		self.mapping_parser = JsonParser(out_path='./mapping.json')
+
+		self.mapping_parser = JsonParser(
+			out_path='./mapping.json',
+			aggregators=[
+				'ROOT._aggr',
+				'ROOT._aggr.PDB._aggr'
+			]
+		)
+
 		self.listing_parser = JsonParser(out_path='./listing.json')
 		self.entities_parser = JsonParser(out_path='./entities.json')
 
@@ -36,8 +44,9 @@ class UniprotParser(object):
 
 			unp_id = elem['uniprotid']
 			print('#%d: %s' % (i, unp_id))
+			print('Uniprot:')
 			self.fetch_uniprot(unp_id)
-
+			print('Mapping:')
 			self.fetch_mapping(unp_id)
 
 			print('\n')

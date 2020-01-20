@@ -1,0 +1,1 @@
+ROOT._aggr.PDB._aggr._arr.end.author_residue_number: invalid simple object -> NoneROOT._aggr.PDB._aggr._arr.start.author_residue_number: invalid simple object -> None
