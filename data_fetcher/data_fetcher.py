@@ -13,7 +13,12 @@ class DataFetcher(object):
 		self.log_file.close()
 
 	def get_json(self, url):
-		r = requests.get(url)
+		try:
+			r = requests.get(url)
+		except:
+			self.json = None
+			return
+
 		if not r.status_code == 200:
 			self.json = None
 		else:
@@ -30,13 +35,31 @@ class DataFetcher(object):
 		if not self.json:
 			self.log_file.write('RepeatsDB: error fetching uniprot list\n')
 			self.log_file.flush()
-			return None
+			return []
 
 		if not type(self.json) == list:
 			self.log_file.write('RepeatsDB: wrong uniprot list format\n')
 			self.log_file.flush()
-			return None
+			return []
 
+		res = []
+		for elem in self.json:
+
+			if not type(elem) == dict:
+				self.log_file.write('%s: not a dict\n' % str(elem))
+				self.log_file.flush()
+
+			elif 'uniprotid' not in elem:
+				self.log_file.write('%s: missing uniprot id\n' % str(elem))
+				self.log_file.flush()
+
+			else:
+				if 'id' not in elem:
+					self.log_file.write('%s: missing id\n' % str(elem))
+					self.log_file.flush()
+				res.append(elem)
+
+		self.json = res
 		return self.json
 
 	def get_ebi_sequence(self, uniprot_id):
