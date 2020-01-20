@@ -48,6 +48,9 @@ class JsonNode:
 		return self.path
 
 	def add(self, json):
+
+		self.counter += 1
+
 		try:
 			float(json)
 			atype = 'num'
