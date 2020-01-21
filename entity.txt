@@ -1,2 +1,47 @@
- (121):
- ' __value (121): NoneType=1
+ (5789):
+ ' __list (5932):
+ '  ' average_unit (5932):
+ '  '  ' __value (5932): num=25
+ '  ' class (5932):
+ '  '  ' __list (5932):
+ '  '  '  ' __value (5932): str=4
+ '  ' classification (5932):
+ '  '  ' __list (5932):
+ '  '  '  ' __value (5932): str=23
+ '  ' entry_type (5932):
+ '  '  ' __value (5932): str=1
+ '  ' has_insertions (5932):
+ '  '  ' __value (5932): num=2
+ '  ' has_superegion (5932):
+ '  '  ' __value (5932): num=1
+ '  ' id (5932):
+ '  '  ' __list (5932):
+ '  '  '  ' __value (5932): str=25
+ '  ' insertions (5932):
+ '  '  ' __list (4566):
+ '  '  '  ' __list (9132):
+ '  '  '  '  ' __value (9132): num=25
+ '  ' reg_seqres_coverage (5932):
+ '  '  ' __value (5932): num=25
+ '  ' region_id (5932):
+ '  '  ' __list (5932):
+ '  '  '  ' __value (5932): str=25
+ '  ' repDB_source (5932):
+ '  '  ' __value (5932): str=3
+ '  ' repdb_description (5845):
+ '  '  ' __list (13893):
+ '  '  '  ' __value (13893): str=25
+ '  ' subclass (5932):
+ '  '  ' __list (5932):
+ '  '  '  ' __value (5932): num=10
+ '  ' superreg (5932):
+ '  '  ' __list (0):
+ '  ' units (5932):
+ '  '  ' __list (44508):
+ '  '  '  ' __list (89016):
+ '  '  '  '  ' __value (89016): num=25
+ '  ' units_number (5932):
+ '  '  ' __value (5932): num=25
+ '  ' Pfam (2554):
+ '  '  ' __list (4614):
+ '  '  '  ' __value (4614): str=25

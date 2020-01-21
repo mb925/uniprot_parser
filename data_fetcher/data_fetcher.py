@@ -108,12 +108,32 @@ class DataFetcher(object):
 		self.get_json('%s%s%s%s' % (schema, domain, subfolders, pdb_id))
 
 		if not self.json:
-			self.log_file.write('EBI: error fetching uniprot listing -> %s\n' % pdb_id)
+			self.log_file.write('EBI: error fetching pdb listing -> %s\n' % pdb_id)
 			self.log_file.flush()
 			return None
 
 		if not type(self.json) == dict:
-			self.log_file.write('EBI: wrong uniprot listing format -> %s\n' % pdb_id)
+			self.log_file.write('EBI: wrong pdb listing format -> %s\n' % pdb_id)
+			self.log_file.flush()
+			return None
+
+		return self.json
+
+	def get_repeats_entities(self, pdb, chain):
+
+		schema = 'http://'
+		domain = 'repeatsdb.bio.unipd.it'
+		subfolders = '/ws/search'
+		params = 'entry_type=repeat_region&id=%s%s&collection=repeat_region&show=ALL' % (pdb, chain)
+		self.get_json('%s%s%s?%s' % (schema, domain, subfolders, params))
+
+		if not self.json:
+			self.log_file.write('RepeatsDB: error fetching entity -> %s, %s\n' % (pdb, chain))
+			self.log_file.flush()
+			return None
+
+		if not type(self.json) == list:
+			self.log_file.write('RepeatsDB: wrong entity format -> %s, %s\n' % (pdb, chain))
 			self.log_file.flush()
 			return None
 

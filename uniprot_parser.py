@@ -9,11 +9,21 @@ class UniprotParser(object):
 		# uniprot tree
 		self.utree = JsonTree('./uniprot.txt')
 		# mapping tree
-		self.mtree = JsonTree('./mapping.txt')
+		self.mtree = JsonTree(
+			'./mapping.txt',
+			{
+				'',
+				'.__dict.PDB'
+			})
 		# listing tree
-		# self.ltree = JsonTree('./listing.txt')
+		self.ltree = JsonTree(
+			'./listing.txt',
+			{
+				''
+			}
+		)
 		# entity tree
-		# self.etree = JsonTree('./entity.txt')
+		self.etree = JsonTree('./entity.txt')
 
 	def start(self):
 
@@ -22,6 +32,7 @@ class UniprotParser(object):
 		print('Collecting %d uniprots...\n\n' % len(ulist))
 		i = 0
 		j = 0
+		k = 0
 		for elem in ulist:
 
 			# get elements
@@ -39,25 +50,37 @@ class UniprotParser(object):
 			self.mtree.acquire(
 				self.df.get_ebi_mapping(unp_id))
 
-			print('---> Listing...')
+			pdbs = {}
 			for pdb in elem['id']:
+				pdb_id = pdb[:-1]
+				chain_id = pdb[-1]
+
+				if pdb_id not in pdbs:
+					pdbs[pdb_id] = set()
+				pdbs[pdb_id].add(chain_id)
+
+			for pdb in pdbs:
 				j += 1
 				print('--- #%d: %s' % (j, pdb))
+
+				print('---> Listing...')
+				self.ltree.acquire(
+					self.df.get_ebi_listing(pdb))
+
+				print('---> Entities...')
+				for chain in pdbs[pdb]:
+					k += 1
+					print('--- #%d: %s, %s' % (k, pdb, chain))
+					self.etree.acquire(
+						self.df.get_repeats_entities(pdb, chain))
 
 			print('<<<<<<<<<<\n')
 
 			# update state
 			self.utree.save()
 			self.mtree.save()
-
-			if i == 50:
-				break
-
-	# def save_listing(self):
-	# 	update_file(UniprotParser.listing_path, ...)
-	#
-	# def save_entity(self):
-	# 	update_file(UniprotParser.entity_path, ...)
+			self.ltree.save()
+			self.etree.save()
 
 
 if __name__ == '__main__':

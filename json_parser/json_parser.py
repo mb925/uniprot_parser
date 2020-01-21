@@ -4,9 +4,8 @@ from json_parser.json_node import JsonNode
 class JsonTree:
 
 	def __init__(self, out_path='./tree.txt', aggregators=None):
-		self.root = JsonNode()
+		self.root = JsonNode(aggregators=aggregators)
 		self.out_path = out_path
-		self.aggregators = aggregators
 
 	def acquire(self, json):
 		self.root.acquire(json)

@@ -1,706 +1,1064 @@
--(50):
- ' -accession(50):
- '  ' -__value(50):(str:25,)
- ' -id(50):
- '  ' -__value(50):(str:25,)
- ' -proteinExistence(50):
- '  ' -__value(50):(str:1,)
- ' -info(50):
- '  ' -type(50):
- '  '  ' -__value(50):(str:2,)
- '  ' -created(50):
- '  '  ' -__value(50):(str:25,)
- '  ' -modified(50):
- '  '  ' -__value(50):(str:1,)
- '  ' -version(50):
- '  '  ' -__value(50):(num:25,)
- ' -organism(50):
- '  ' -taxonomy(50):
- '  '  ' -__value(50):(num:25,)
- '  ' -names(50):
- '  '  ' -__list(82):
- '  '  '  ' -type(82):
- '  '  '  '  ' -__value(82):(str:3,)
- '  '  '  ' -value(82):
- '  '  '  '  ' -__value(82):(str:25,)
- '  ' -lineage(50):
- '  '  ' -__list(479):
- '  '  '  ' -__value(479):(str:25,)
- ' -protein(50):
- '  ' -recommendedName(30):
- '  '  ' -fullName(30):
- '  '  '  ' -value(30):
- '  '  '  '  ' -__value(30):(str:25,)
- '  '  '  ' -evidences(13):
- '  '  '  '  ' -__list(18):
- '  '  '  '  '  ' -code(18):
- '  '  '  '  '  '  ' -__value(18):(str:3,)
- '  '  '  '  '  ' -source(12):
- '  '  '  '  '  '  ' -name(12):
- '  '  '  '  '  '  '  ' -__value(12):(str:7,)
- '  '  '  '  '  '  ' -id(12):
- '  '  '  '  '  '  '  ' -__value(12):(num:2,str:10,)
- '  '  '  '  '  '  ' -url(12):
- '  '  '  '  '  '  '  ' -__value(12):(str:4,)
- '  '  '  '  '  '  ' -alternativeUrl(2):
- '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  ' -shortName(12):
- '  '  '  ' -__list(13):
- '  '  '  '  ' -value(13):
- '  '  '  '  '  ' -__value(13):(str:11,)
- '  '  '  '  ' -evidences(4):
- '  '  '  '  '  ' -__list(5):
- '  '  '  '  '  '  ' -code(5):
- '  '  '  '  '  '  '  ' -__value(5):(str:2,)
- '  '  '  '  '  '  ' -source(4):
- '  '  '  '  '  '  '  ' -name(4):
- '  '  '  '  '  '  '  '  ' -__value(4):(str:3,)
- '  '  '  '  '  '  '  ' -id(4):
- '  '  '  '  '  '  '  '  ' -__value(4):(str:3,num:1,)
- '  '  '  '  '  '  '  ' -url(4):
- '  '  '  '  '  '  '  '  ' -__value(4):(str:3,)
- '  '  '  '  '  '  '  ' -alternativeUrl(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  ' -ecNumber(13):
- '  '  '  ' -__list(14):
- '  '  '  '  ' -value(14):
- '  '  '  '  '  ' -__value(14):(str:11,)
- '  '  '  '  ' -evidences(8):
- '  '  '  '  '  ' -__list(16):
- '  '  '  '  '  '  ' -code(16):
- '  '  '  '  '  '  '  ' -__value(16):(str:3,)
- '  '  '  '  '  '  ' -source(16):
- '  '  '  '  '  '  '  ' -name(16):
- '  '  '  '  '  '  '  '  ' -__value(16):(str:6,)
- '  '  '  '  '  '  '  ' -id(16):
- '  '  '  '  '  '  '  '  ' -__value(16):(num:6,str:7,)
- '  '  '  '  '  '  '  ' -url(16):
- '  '  '  '  '  '  '  '  ' -__value(16):(str:4,)
- '  '  '  '  '  '  '  ' -alternativeUrl(8):
- '  '  '  '  '  '  '  '  ' -__value(8):(str:1,)
- '  ' -submittedName(20):
- '  '  ' -__list(25):
- '  '  '  ' -fullName(25):
- '  '  '  '  ' -value(25):
- '  '  '  '  '  ' -__value(25):(str:25,)
- '  '  '  '  ' -evidences(25):
- '  '  '  '  '  ' -__list(25):
- '  '  '  '  '  '  ' -code(25):
- '  '  '  '  '  '  '  ' -__value(25):(str:1,)
- '  '  '  '  '  '  ' -source(25):
- '  '  '  '  '  '  '  ' -name(25):
- '  '  '  '  '  '  '  '  ' -__value(25):(str:2,)
- '  '  '  '  '  '  '  ' -id(25):
- '  '  '  '  '  '  '  '  ' -__value(25):(str:25,)
- '  '  '  '  '  '  '  ' -url(25):
- '  '  '  '  '  '  '  '  ' -__value(25):(str:1,)
- '  '  '  ' -ecNumber(2):
- '  '  '  '  ' -__list(2):
- '  '  '  '  '  ' -value(2):
- '  '  '  '  '  '  ' -__value(2):(str:2,)
- '  '  '  '  '  ' -evidences(2):
- '  '  '  '  '  '  ' -__list(2):
- '  '  '  '  '  '  '  ' -code(2):
- '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  '  '  '  '  '  ' -source(2):
- '  '  '  '  '  '  '  '  ' -name(2):
- '  '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  '  '  '  '  '  '  ' -id(2):
- '  '  '  '  '  '  '  '  '  ' -__value(2):(str:2,)
- '  '  '  '  '  '  '  '  ' -url(2):
- '  '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  ' -alternativeName(22):
- '  '  ' -__list(43):
- '  '  '  ' -fullName(43):
- '  '  '  '  ' -value(43):
- '  '  '  '  '  ' -__value(43):(str:25,)
- '  '  '  '  ' -evidences(16):
- '  '  '  '  '  ' -__list(18):
- '  '  '  '  '  '  ' -code(18):
- '  '  '  '  '  '  '  ' -__value(18):(str:2,)
- '  '  '  '  '  '  ' -source(13):
- '  '  '  '  '  '  '  ' -name(13):
- '  '  '  '  '  '  '  '  ' -__value(13):(str:4,)
- '  '  '  '  '  '  '  ' -id(13):
- '  '  '  '  '  '  '  '  ' -__value(13):(num:6,str:5,)
- '  '  '  '  '  '  '  ' -url(13):
- '  '  '  '  '  '  '  '  ' -__value(13):(str:3,)
- '  '  '  '  '  '  '  ' -alternativeUrl(7):
- '  '  '  '  '  '  '  '  ' -__value(7):(str:1,)
- '  '  '  ' -shortName(10):
- '  '  '  '  ' -__list(11):
- '  '  '  '  '  ' -value(11):
- '  '  '  '  '  '  ' -__value(11):(str:11,)
- '  '  '  '  '  ' -evidences(2):
- '  '  '  '  '  '  ' -__list(2):
- '  '  '  '  '  '  '  ' -code(2):
- '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  '  '  '  '  '  ' -source(1):
- '  '  '  '  '  '  '  '  ' -name(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -id(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(num:1,)
- '  '  '  '  '  '  '  '  ' -url(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -alternativeUrl(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  ' -ecNumber(1):
- '  '  '  '  ' -__list(1):
- '  '  '  '  '  ' -value(1):
- '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  ' -evidences(1):
- '  '  '  '  '  '  ' -__list(1):
- '  '  '  '  '  '  '  ' -code(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  ' -source(1):
- '  '  '  '  '  '  '  '  ' -name(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -id(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -url(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- ' -gene(40):
- '  ' -__list(40):
- '  '  ' -name(34):
- '  '  '  ' -value(34):
- '  '  '  '  ' -__value(34):(str:25,num:1,)
- '  '  '  ' -evidences(19):
- '  '  '  '  ' -__list(23):
- '  '  '  '  '  ' -code(23):
- '  '  '  '  '  '  ' -__value(23):(str:3,)
- '  '  '  '  '  ' -source(23):
- '  '  '  '  '  '  ' -name(23):
- '  '  '  '  '  '  '  ' -__value(23):(str:8,)
- '  '  '  '  '  '  ' -id(23):
- '  '  '  '  '  '  '  ' -__value(23):(str:22,num:1,)
- '  '  '  '  '  '  ' -url(23):
- '  '  '  '  '  '  '  ' -__value(23):(str:4,)
- '  '  '  '  '  '  ' -alternativeUrl(1):
- '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  ' -olnNames(12):
- '  '  '  ' -__list(15):
- '  '  '  '  ' -value(15):
- '  '  '  '  '  ' -__value(15):(str:15,)
- '  '  '  '  ' -evidences(4):
- '  '  '  '  '  ' -__list(4):
- '  '  '  '  '  '  ' -code(4):
- '  '  '  '  '  '  '  ' -__value(4):(str:1,)
- '  '  '  '  '  '  ' -source(4):
- '  '  '  '  '  '  '  ' -name(4):
- '  '  '  '  '  '  '  '  ' -__value(4):(str:1,)
- '  '  '  '  '  '  '  ' -id(4):
- '  '  '  '  '  '  '  '  ' -__value(4):(str:4,)
- '  '  '  '  '  '  '  ' -url(4):
- '  '  '  '  '  '  '  '  ' -__value(4):(str:1,)
- '  '  ' -synonyms(17):
- '  '  '  ' -__list(28):
- '  '  '  '  ' -value(28):
- '  '  '  '  '  ' -__value(28):(str:25,)
- '  '  '  '  ' -evidences(12):
- '  '  '  '  '  ' -__list(12):
- '  '  '  '  '  '  ' -code(12):
- '  '  '  '  '  '  '  ' -__value(12):(str:2,)
- '  '  '  '  '  '  ' -source(12):
- '  '  '  '  '  '  '  ' -name(12):
- '  '  '  '  '  '  '  '  ' -__value(12):(str:2,)
- '  '  '  '  '  '  '  ' -id(12):
- '  '  '  '  '  '  '  '  ' -__value(12):(str:4,num:4,)
- '  '  '  '  '  '  '  ' -url(12):
- '  '  '  '  '  '  '  '  ' -__value(12):(str:2,)
- '  '  '  '  '  '  '  ' -alternativeUrl(4):
- '  '  '  '  '  '  '  '  ' -__value(4):(str:1,)
- '  '  ' -orfNames(8):
- '  '  '  ' -__list(9):
- '  '  '  '  ' -value(9):
- '  '  '  '  '  ' -__value(9):(str:9,)
- '  '  '  '  ' -evidences(5):
- '  '  '  '  '  ' -__list(6):
- '  '  '  '  '  '  ' -code(6):
- '  '  '  '  '  '  '  ' -__value(6):(str:1,)
- '  '  '  '  '  '  ' -source(6):
- '  '  '  '  '  '  '  ' -name(6):
- '  '  '  '  '  '  '  '  ' -__value(6):(str:2,)
- '  '  '  '  '  '  '  ' -id(6):
- '  '  '  '  '  '  '  '  ' -__value(6):(str:5,)
- '  '  '  '  '  '  '  ' -url(6):
- '  '  '  '  '  '  '  '  ' -__value(6):(str:2,)
- ' -comments(31):
- '  ' -__list(202):
- '  '  ' -type(202):
- '  '  '  ' -__value(202):(str:23,)
- '  '  ' -text(144):
- '  '  '  ' -__list(139):
- '  '  '  '  ' -value(139):
- '  '  '  '  '  ' -__value(139):(str:25,)
- '  '  '  '  ' -evidences(116):
- '  '  '  '  '  ' -__list(273):
- '  '  '  '  '  '  ' -code(273):
- '  '  '  '  '  '  '  ' -__value(273):(str:3,)
- '  '  '  '  '  '  ' -source(246):
- '  '  '  '  '  '  '  ' -name(246):
- '  '  '  '  '  '  '  '  ' -__value(246):(str:8,)
- '  '  '  '  '  '  '  ' -id(246):
- '  '  '  '  '  '  '  '  ' -__value(246):(str:23,num:25,)
- '  '  '  '  '  '  '  ' -url(246):
- '  '  '  '  '  '  '  '  ' -__value(246):(str:4,)
- '  '  '  '  '  '  '  ' -alternativeUrl(198):
- '  '  '  '  '  '  '  '  ' -__value(198):(str:1,)
- '  '  '  ' -__value(5):(str:4,)
- '  '  ' -cofactors(5):
- '  '  '  ' -__list(6):
- '  '  '  '  ' -name(6):
- '  '  '  '  '  ' -__value(6):(str:3,)
- '  '  '  '  ' -dbReference(6):
- '  '  '  '  '  ' -type(6):
- '  '  '  '  '  '  ' -__value(6):(str:1,)
- '  '  '  '  '  ' -id(6):
- '  '  '  '  '  '  ' -__value(6):(str:3,)
- '  '  '  '  ' -evidences(6):
- '  '  '  '  '  ' -__list(12):
- '  '  '  '  '  '  ' -code(12):
- '  '  '  '  '  '  '  ' -__value(12):(str:2,)
- '  '  '  '  '  '  ' -source(11):
- '  '  '  '  '  '  '  ' -name(11):
- '  '  '  '  '  '  '  '  ' -__value(11):(str:5,)
- '  '  '  '  '  '  '  ' -id(11):
- '  '  '  '  '  '  '  '  ' -__value(11):(num:4,str:6,)
- '  '  '  '  '  '  '  ' -url(11):
- '  '  '  '  '  '  '  '  ' -__value(11):(str:3,)
- '  '  '  '  '  '  '  ' -alternativeUrl(5):
- '  '  '  '  '  '  '  '  ' -__value(5):(str:1,)
- '  '  ' -locations(23):
- '  '  '  ' -__list(36):
- '  '  '  '  ' -location(36):
- '  '  '  '  '  ' -value(36):
- '  '  '  '  '  '  ' -__value(36):(str:17,)
- '  '  '  '  '  ' -evidences(26):
- '  '  '  '  '  '  ' -__list(41):
- '  '  '  '  '  '  '  ' -code(41):
- '  '  '  '  '  '  '  '  ' -__value(41):(str:3,)
- '  '  '  '  '  '  '  ' -source(35):
- '  '  '  '  '  '  '  '  ' -name(35):
- '  '  '  '  '  '  '  '  '  ' -__value(35):(str:5,)
- '  '  '  '  '  '  '  '  ' -id(35):
- '  '  '  '  '  '  '  '  '  ' -__value(35):(str:8,num:22,)
- '  '  '  '  '  '  '  '  ' -url(35):
- '  '  '  '  '  '  '  '  '  ' -__value(35):(str:4,)
- '  '  '  '  '  '  '  '  ' -alternativeUrl(26):
- '  '  '  '  '  '  '  '  '  ' -__value(26):(str:1,)
- '  '  '  '  ' -topology(3):
- '  '  '  '  '  ' -value(3):
- '  '  '  '  '  '  ' -__value(3):(str:3,)
- '  '  '  '  '  ' -evidences(2):
- '  '  '  '  '  '  ' -__list(5):
- '  '  '  '  '  '  '  ' -code(5):
- '  '  '  '  '  '  '  '  ' -__value(5):(str:2,)
- '  '  '  '  '  '  '  ' -source(5):
- '  '  '  '  '  '  '  '  ' -name(5):
- '  '  '  '  '  '  '  '  '  ' -__value(5):(str:3,)
- '  '  '  '  '  '  '  '  ' -id(5):
- '  '  '  '  '  '  '  '  '  ' -__value(5):(str:3,num:2,)
- '  '  '  '  '  '  '  '  ' -url(5):
- '  '  '  '  '  '  '  '  '  ' -__value(5):(str:3,)
- '  '  '  '  '  '  '  '  ' -alternativeUrl(2):
- '  '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  '  '  ' -orientation(1):
- '  '  '  '  '  ' -value(1):
- '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  ' -reaction(15):
- '  '  '  ' -name(15):
- '  '  '  '  ' -__value(15):(str:12,)
- '  '  '  ' -dbReferences(10):
- '  '  '  '  ' -__list(40):
- '  '  '  '  '  ' -type(40):
- '  '  '  '  '  '  ' -__value(40):(str:2,)
- '  '  '  '  '  ' -id(40):
- '  '  '  '  '  '  ' -__value(40):(str:25,)
- '  '  '  ' -ecNumber(15):
- '  '  '  '  ' -__value(15):(str:10,)
- '  '  '  ' -evidences(9):
- '  '  '  '  ' -__list(16):
- '  '  '  '  '  ' -code(16):
- '  '  '  '  '  '  ' -__value(16):(str:2,)
- '  '  '  '  '  ' -source(16):
- '  '  '  '  '  '  ' -name(16):
- '  '  '  '  '  '  '  ' -__value(16):(str:7,)
- '  '  '  '  '  '  ' -id(16):
- '  '  '  '  '  '  '  ' -__value(16):(num:5,str:7,)
- '  '  '  '  '  '  ' -url(16):
- '  '  '  '  '  '  '  ' -__value(16):(str:4,)
- '  '  '  '  '  '  ' -alternativeUrl(7):
- '  '  '  '  '  '  '  ' -__value(7):(str:1,)
- '  '  ' -kinetics(1):
- '  '  '  ' -km(1):
- '  '  '  '  ' -__list(1):
- '  '  '  '  '  ' -value(1):
- '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  ' -evidences(1):
- '  '  '  '  '  '  ' -__list(1):
- '  '  '  '  '  '  '  ' -code(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  ' -source(1):
- '  '  '  '  '  '  '  '  ' -name(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -id(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -url(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  ' -vmax(1):
- '  '  '  '  ' -__list(1):
- '  '  '  '  '  ' -value(1):
- '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  ' -evidences(1):
- '  '  '  '  '  '  ' -__list(1):
- '  '  '  '  '  '  '  ' -code(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  ' -source(1):
- '  '  '  '  '  '  '  '  ' -name(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -id(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  '  ' -url(1):
- '  '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  ' -phDependence(1):
- '  '  '  ' -__list(1):
- '  '  '  '  ' -value(1):
- '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  ' -evidences(1):
- '  '  '  '  '  ' -__list(1):
- '  '  '  '  '  '  ' -code(1):
- '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  ' -source(1):
- '  '  '  '  '  '  '  ' -name(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  ' -id(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  ' -url(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  ' -temperatureDependence(1):
- '  '  '  ' -__list(1):
- '  '  '  '  ' -value(1):
- '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  ' -evidences(1):
- '  '  '  '  '  ' -__list(1):
- '  '  '  '  '  '  ' -code(1):
- '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  ' -source(1):
- '  '  '  '  '  '  '  ' -name(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  ' -id(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  '  '  '  ' -url(1):
- '  '  '  '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  ' -method(5):
- '  '  '  ' -__value(5):(str:2,)
- '  '  ' -mass(5):
- '  '  '  ' -__value(5):(num:5,)
- '  '  ' -error(5):
- '  '  '  ' -__value(5):(num:3,)
- '  '  ' -evidences(11):
- '  '  '  ' -__list(11):
- '  '  '  '  ' -code(11):
- '  '  '  '  '  ' -__value(11):(str:2,)
- '  '  '  '  ' -source(5):
- '  '  '  '  '  ' -name(5):
- '  '  '  '  '  '  ' -__value(5):(str:2,)
- '  '  '  '  '  ' -id(5):
- '  '  '  '  '  '  ' -__value(5):(str:1,num:3,)
- '  '  '  '  '  ' -url(5):
- '  '  '  '  '  '  ' -__value(5):(str:2,)
- '  '  '  '  '  ' -alternativeUrl(4):
- '  '  '  '  '  '  ' -__value(4):(str:1,)
- '  '  ' -interactions(11):
- '  '  '  ' -__list(58):
- '  '  '  '  ' -interactionType(58):
- '  '  '  '  '  ' -__value(58):(str:2,)
- '  '  '  '  ' -id(58):
- '  '  '  '  '  ' -__value(58):(str:25,)
- '  '  '  '  ' -gene(58):
- '  '  '  '  '  ' -__value(58):(str:25,)
- '  '  '  '  ' -interactor1(58):
- '  '  '  '  '  ' -__value(58):(str:12,)
- '  '  '  '  ' -interactor2(58):
- '  '  '  '  '  ' -__value(58):(str:25,)
- '  '  '  '  ' -organismDiffer(58):
- '  '  '  '  '  ' -__value(58):(num:2,)
- '  '  '  '  ' -experiments(58):
- '  '  '  '  '  ' -__value(58):(num:14,)
- '  '  ' -event(2):
- '  '  '  ' -__list(2):
- '  '  '  '  ' -__value(2):(str:1,)
- '  '  ' -isoforms(2):
- '  '  '  ' -__list(5):
- '  '  '  '  ' -ids(5):
- '  '  '  '  '  ' -__list(5):
- '  '  '  '  '  '  ' -__value(5):(str:5,)
- '  '  '  '  ' -name(5):
- '  '  '  '  '  ' -value(5):
- '  '  '  '  '  '  ' -__value(5):(num:3,)
- '  '  '  '  ' -sequenceStatus(5):
- '  '  '  '  '  ' -__value(5):(str:2,)
- '  '  '  '  ' -sequence(3):
- '  '  '  '  '  ' -__list(4):
- '  '  '  '  '  '  ' -__value(4):(str:4,)
- '  '  '  '  ' -synonyms(2):
- '  '  '  '  '  ' -__list(2):
- '  '  '  '  '  '  ' -value(2):
- '  '  '  '  '  '  '  ' -__value(2):(str:2,)
- '  '  ' -diseaseId(4):
- '  '  '  ' -__value(4):(str:4,)
- '  '  ' -acronym(4):
- '  '  '  ' -__value(4):(str:4,)
- '  '  ' -dbReference(4):
- '  '  '  ' -type(4):
- '  '  '  '  ' -__value(4):(str:1,)
- '  '  '  ' -id(4):
- '  '  '  '  ' -__value(4):(num:4,)
- '  '  ' -description(4):
- '  '  '  ' -value(4):
- '  '  '  '  ' -__value(4):(str:4,)
- '  '  '  ' -evidences(3):
- '  '  '  '  ' -__list(5):
- '  '  '  '  '  ' -code(5):
- '  '  '  '  '  '  ' -__value(5):(str:1,)
- '  '  '  '  '  ' -source(5):
- '  '  '  '  '  '  ' -name(5):
- '  '  '  '  '  '  '  ' -__value(5):(str:1,)
- '  '  '  '  '  '  ' -id(5):
- '  '  '  '  '  '  '  ' -__value(5):(num:5,)
- '  '  '  '  '  '  ' -url(5):
- '  '  '  '  '  '  '  ' -__value(5):(str:1,)
- '  '  '  '  '  '  ' -alternativeUrl(5):
- '  '  '  '  '  '  '  ' -__value(5):(str:1,)
- '  '  ' -conflictType(6):
- '  '  '  ' -__value(6):(str:2,)
- '  '  ' -sequence(6):
- '  '  '  ' -__value(6):(str:6,)
- '  '  ' -molecule(1):
- '  '  '  ' -__value(1):(str:1,)
- '  '  ' -name(2):
- '  '  '  ' -__value(2):(str:2,)
- '  '  ' -url(2):
- '  '  '  ' -__value(2):(str:2,)
- ' -features(47):
- '  ' -__list(1578):
- '  '  ' -type(1578):
- '  '  '  ' -__value(1578):(str:25,)
- '  '  ' -category(1578):
- '  '  '  ' -__value(1578):(str:8,)
- '  '  ' -ftId(93):
- '  '  '  ' -__value(93):(str:25,)
- '  '  ' -description(635):
- '  '  '  ' -__value(635):(str:25,)
- '  '  ' -begin(1578):
- '  '  '  ' -__value(1578):(num:25,)
- '  '  ' -end(1578):
- '  '  '  ' -__value(1578):(num:25,)
- '  '  ' -molecule(1578):
- '  '  '  ' -__value(1578):(str:1,)
- '  '  ' -evidences(1434):
- '  '  '  ' -__list(1586):
- '  '  '  '  ' -code(1586):
- '  '  '  '  '  ' -__value(1586):(str:6,)
- '  '  '  '  ' -source(1517):
- '  '  '  '  '  ' -name(1517):
- '  '  '  '  '  '  ' -__value(1517):(str:10,)
- '  '  '  '  '  ' -id(1517):
- '  '  '  '  '  '  ' -__value(1517):(str:25,num:25,)
- '  '  '  '  '  ' -url(1517):
- '  '  '  '  '  '  ' -__value(1517):(str:5,)
- '  '  '  '  '  ' -alternativeUrl(227):
- '  '  '  '  '  '  ' -__value(227):(str:1,)
- '  '  ' -alternativeSequence(119):
- '  '  '  ' -__value(119):(str:25,)
- ' -dbReferences(50):
- '  ' -__list(2468):
- '  '  ' -type(2468):
- '  '  '  ' -__value(2468):(str:25,)
- '  '  ' -id(2468):
- '  '  '  ' -__value(2468):(str:25,num:25,)
- '  '  ' -properties(1583):
- '  '  '  ' -molecule type(157):
- '  '  '  '  ' -__value(157):(str:4,)
- '  '  '  ' -protein sequence ID(180):
- '  '  '  '  ' -__value(180):(str:25,)
- '  '  '  ' -nucleotide sequence ID(41):
- '  '  '  '  ' -__value(41):(str:25,)
- '  '  '  ' -method(208):
- '  '  '  '  ' -__value(208):(str:3,)
- '  '  '  ' -chains(208):
- '  '  '  '  ' -__value(208):(str:25,)
- '  '  '  ' -resolution(205):
- '  '  '  '  ' -__value(205):(str:25,)
- '  '  '  ' -gene ID(39):
- '  '  '  '  ' -__value(39):(str:24,)
- '  '  '  ' -taxonomic scope(49):
- '  '  '  '  ' -__value(49):(str:4,)
- '  '  '  ' -component(33):
- '  '  '  '  ' -__value(33):(str:4,)
- '  '  '  ' -term(355):
- '  '  '  '  ' -__value(355):(str:25,)
- '  '  '  ' -source(355):
- '  '  '  '  ' -__value(355):(str:25,)
- '  '  '  ' -match status(280):
- '  '  '  '  ' -__value(280):(num:9,)
- '  '  '  ' -entry name(464):
- '  '  '  '  ' -__value(464):(str:25,)
- '  '  '  ' -interactions(36):
- '  '  '  '  ' -__value(36):(num:25,)
- '  '  '  ' -organism name(22):
- '  '  '  '  ' -__value(22):(str:4,)
- '  '  '  ' -gene designation(13):
- '  '  '  '  ' -__value(13):(str:13,)
- '  '  '  ' -expression patterns(19):
- '  '  '  '  ' -__value(19):(str:2,)
- '  '  '  ' -family name(8):
- '  '  '  '  ' -__value(8):(str:4,)
- '  '  '  ' -organism ID(16):
- '  '  '  '  ' -__value(16):(num:5,str:3,)
- '  '  '  ' -type(12):
- '  '  '  '  ' -__value(12):(str:3,)
- '  '  '  ' -pathway name(56):
- '  '  '  '  ' -__value(56):(str:25,)
- '  '  '  ' -development level(7):
- '  '  '  '  ' -__value(7):(str:2,)
- '  '  '  ' -status(11):
- '  '  '  '  ' -__value(11):(str:3,)
- '  '  '  ' -disease(5):
- '  '  '  '  ' -__value(5):(str:4,)
- '  '  '  ' -reaction ID(3):
- '  '  '  '  ' -__value(3):(str:1,)
- '  '  '  ' -generic name(1):
- '  '  '  '  ' -__value(1):(str:1,)
- '  '  ' -evidences(172):
- '  '  '  ' -__list(195):
- '  '  '  '  ' -code(195):
- '  '  '  '  '  ' -__value(195):(str:1,)
- '  '  '  '  ' -source(195):
- '  '  '  '  '  ' -name(195):
- '  '  '  '  '  '  ' -__value(195):(str:1,)
- '  '  '  '  '  ' -id(195):
- '  '  '  '  '  '  ' -__value(195):(num:25,)
- '  '  '  '  '  ' -url(195):
- '  '  '  '  '  '  ' -__value(195):(str:1,)
- '  '  '  '  '  ' -alternativeUrl(195):
- '  '  '  '  '  '  ' -__value(195):(str:1,)
- '  '  ' -isoform(20):
- '  '  '  ' -__value(20):(str:4,)
- ' -keywords(50):
- '  ' -__list(311):
- '  '  ' -value(311):
- '  '  '  ' -__value(311):(str:25,)
- '  '  ' -evidences(62):
- '  '  '  ' -__list(121):
- '  '  '  '  ' -code(121):
- '  '  '  '  '  ' -__value(121):(str:3,)
- '  '  '  '  ' -source(121):
- '  '  '  '  '  ' -name(121):
- '  '  '  '  '  '  ' -__value(121):(str:10,)
- '  '  '  '  '  ' -id(121):
- '  '  '  '  '  '  ' -__value(121):(str:25,)
- '  '  '  '  '  ' -url(121):
- '  '  '  '  '  '  ' -__value(121):(str:4,)
- ' -references(50):
- '  ' -__list(359):
- '  '  ' -citation(359):
- '  '  '  ' -type(359):
- '  '  '  '  ' -__value(359):(str:2,)
- '  '  '  ' -publicationDate(359):
- '  '  '  '  ' -__value(359):(num:25,str:25,)
- '  '  '  ' -title(343):
- '  '  '  '  ' -__value(343):(str:25,)
- '  '  '  ' -authors(344):
- '  '  '  '  ' -__list(5474):
- '  '  '  '  '  ' -__value(5474):(str:25,)
- '  '  '  ' -publication(359):
- '  '  '  '  ' -journalName(326):
- '  '  '  '  '  ' -__value(326):(str:25,)
- '  '  '  '  ' -submissionDatabase(33):
- '  '  '  '  '  ' -__value(33):(str:3,)
- '  '  '  ' -location(326):
- '  '  '  '  ' -volume(326):
- '  '  '  '  '  ' -__value(326):(num:25,)
- '  '  '  '  ' -firstPage(326):
- '  '  '  '  '  ' -__value(326):(num:25,str:16,)
- '  '  '  '  ' -lastPage(326):
- '  '  '  '  '  ' -__value(326):(num:25,str:16,)
- '  '  '  ' -dbReferences(323):
- '  '  '  '  ' -__list(634):
- '  '  '  '  '  ' -type(634):
- '  '  '  '  '  '  ' -__value(634):(str:3,)
- '  '  '  '  '  ' -id(634):
- '  '  '  '  '  '  ' -__value(634):(num:25,str:25,)
- '  '  '  ' -consortiums(20):
- '  '  '  '  ' -__list(20):
- '  '  '  '  '  ' -__value(20):(str:9,)
- '  '  ' -source(136):
- '  '  '  ' -strain(89):
- '  '  '  '  ' -__list(91):
- '  '  '  '  '  ' -value(91):
- '  '  '  '  '  '  ' -__value(91):(str:25,num:1,)
- '  '  '  '  '  ' -evidences(36):
- '  '  '  '  '  '  ' -__list(38):
- '  '  '  '  '  '  '  ' -code(38):
- '  '  '  '  '  '  '  '  ' -__value(38):(str:2,)
- '  '  '  '  '  '  '  ' -source(38):
- '  '  '  '  '  '  '  '  ' -name(38):
- '  '  '  '  '  '  '  '  '  ' -__value(38):(str:4,)
- '  '  '  '  '  '  '  '  ' -id(38):
- '  '  '  '  '  '  '  '  '  ' -__value(38):(str:21,num:3,)
- '  '  '  '  '  '  '  '  ' -url(38):
- '  '  '  '  '  '  '  '  '  ' -__value(38):(str:2,)
- '  '  '  '  '  '  '  '  ' -alternativeUrl(3):
- '  '  '  '  '  '  '  '  '  ' -__value(3):(str:1,)
- '  '  '  ' -tissue(56):
- '  '  '  '  ' -__list(95):
- '  '  '  '  '  ' -value(95):
- '  '  '  '  '  '  ' -__value(95):(str:25,)
- '  '  '  '  '  ' -evidences(2):
- '  '  '  '  '  '  ' -__list(2):
- '  '  '  '  '  '  '  ' -code(2):
- '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  '  '  '  '  '  ' -source(2):
- '  '  '  '  '  '  '  '  ' -name(2):
- '  '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  '  '  '  '  '  '  ' -id(2):
- '  '  '  '  '  '  '  '  '  ' -__value(2):(str:2,)
- '  '  '  '  '  '  '  '  ' -url(2):
- '  '  '  '  '  '  '  '  '  ' -__value(2):(str:1,)
- '  '  ' -scope(359):
- '  '  '  ' -__list(635):
- '  '  '  '  ' -__value(635):(str:25,)
- '  '  ' -evidences(97):
- '  '  '  ' -__list(144):
- '  '  '  '  ' -code(144):
- '  '  '  '  '  ' -__value(144):(str:3,)
- '  '  '  '  ' -source(144):
- '  '  '  '  '  ' -name(144):
- '  '  '  '  '  '  ' -__value(144):(str:3,)
- '  '  '  '  '  ' -id(144):
- '  '  '  '  '  '  ' -__value(144):(str:25,)
- '  '  '  '  '  ' -url(144):
- '  '  '  '  '  '  ' -__value(144):(str:1,)
- ' -sequence(50):
- '  ' -version(50):
- '  '  ' -__value(50):(num:3,)
- '  ' -length(50):
- '  '  ' -__value(50):(num:25,)
- '  ' -mass(50):
- '  '  ' -__value(50):(num:25,)
- '  ' -modified(50):
- '  '  ' -__value(50):(str:25,)
- '  ' -sequence(50):
- '  '  ' -__value(50):(str:25,)
- ' -secondaryAccession(15):
- '  ' -__list(38):
- '  '  ' -__value(38):(str:25,)
- ' -organismHost(1):
- '  ' -__list(1):
- '  '  ' -taxonomy(1):
- '  '  '  ' -__value(1):(num:1,)
- '  '  ' -names(1):
- '  '  '  ' -__list(1):
- '  '  '  '  ' -type(1):
- '  '  '  '  '  ' -__value(1):(str:1,)
- '  '  '  '  ' -value(1):
- '  '  '  '  '  ' -__value(1):(str:1,)
+ (1433):
+ ' accession (1413):
+ '  ' __value (1413): str=25
+ ' id (1413):
+ '  ' __value (1413): str=25
+ ' proteinExistence (1413):
+ '  ' __value (1413): str=2
+ ' info (1413):
+ '  ' type (1413):
+ '  '  ' __value (1413): str=2
+ '  ' created (1413):
+ '  '  ' __value (1413): str=25
+ '  ' modified (1413):
+ '  '  ' __value (1413): str=2
+ '  ' version (1413):
+ '  '  ' __value (1413): num=25
+ ' organism (1413):
+ '  ' taxonomy (1413):
+ '  '  ' __value (1413): num=25
+ '  ' names (1413):
+ '  '  ' __list (2305):
+ '  '  '  ' type (2305):
+ '  '  '  '  ' __value (2305): str=3
+ '  '  '  ' value (2305):
+ '  '  '  '  ' __value (2305): str=25
+ '  ' lineage (1413):
+ '  '  ' __list (13740):
+ '  '  '  ' __value (13740): str=25
+ ' protein (1413):
+ '  ' recommendedName (1030):
+ '  '  ' fullName (1030):
+ '  '  '  ' value (1030):
+ '  '  '  '  ' __value (1030): str=25
+ '  '  '  ' evidences (307):
+ '  '  '  '  ' __list (340):
+ '  '  '  '  '  ' code (340):
+ '  '  '  '  '  '  ' __value (340): str=6
+ '  '  '  '  '  ' source (290):
+ '  '  '  '  '  '  ' name (290):
+ '  '  '  '  '  '  '  ' __value (290): str=13
+ '  '  '  '  '  '  ' id (290):
+ '  '  '  '  '  '  '  ' __value (290): num=25, str=25
+ '  '  '  '  '  '  ' url (290):
+ '  '  '  '  '  '  '  ' __value (290): str=25
+ '  '  '  '  '  '  ' alternativeUrl (63):
+ '  '  '  '  '  '  '  ' __value (63): str=25
+ '  '  ' shortName (295):
+ '  '  '  ' __list (378):
+ '  '  '  '  ' value (378):
+ '  '  '  '  '  ' __value (378): str=25
+ '  '  '  '  ' evidences (105):
+ '  '  '  '  '  ' __list (119):
+ '  '  '  '  '  '  ' code (119):
+ '  '  '  '  '  '  '  ' __value (119): str=5
+ '  '  '  '  '  '  ' source (109):
+ '  '  '  '  '  '  '  ' name (109):
+ '  '  '  '  '  '  '  '  ' __value (109): str=5
+ '  '  '  '  '  '  '  ' id (109):
+ '  '  '  '  '  '  '  '  ' __value (109): str=25, num=19
+ '  '  '  '  '  '  '  ' url (109):
+ '  '  '  '  '  '  '  '  ' __value (109): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (21):
+ '  '  '  '  '  '  '  '  ' __value (21): str=19
+ '  '  ' ecNumber (373):
+ '  '  '  ' __list (385):
+ '  '  '  '  ' value (385):
+ '  '  '  '  '  ' __value (385): str=25
+ '  '  '  '  ' evidences (207):
+ '  '  '  '  '  ' __list (306):
+ '  '  '  '  '  '  ' code (306):
+ '  '  '  '  '  '  '  ' __value (306): str=6
+ '  '  '  '  '  '  ' source (304):
+ '  '  '  '  '  '  '  ' name (304):
+ '  '  '  '  '  '  '  '  ' __value (304): str=8
+ '  '  '  '  '  '  '  ' id (304):
+ '  '  '  '  '  '  '  '  ' __value (304): num=25, str=25
+ '  '  '  '  '  '  '  ' url (304):
+ '  '  '  '  '  '  '  '  ' __value (304): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (144):
+ '  '  '  '  '  '  '  '  ' __value (144): str=25
+ '  ' submittedName (383):
+ '  '  ' __list (441):
+ '  '  '  ' fullName (441):
+ '  '  '  '  ' value (441):
+ '  '  '  '  '  ' __value (441): str=25
+ '  '  '  '  ' evidences (441):
+ '  '  '  '  '  ' __list (446):
+ '  '  '  '  '  '  ' code (446):
+ '  '  '  '  '  '  '  ' __value (446): str=1
+ '  '  '  '  '  '  ' source (446):
+ '  '  '  '  '  '  '  ' name (446):
+ '  '  '  '  '  '  '  '  ' __value (446): str=7
+ '  '  '  '  '  '  '  ' id (446):
+ '  '  '  '  '  '  '  '  ' __value (446): str=25
+ '  '  '  '  '  '  '  ' url (446):
+ '  '  '  '  '  '  '  '  ' __value (446): str=25
+ '  '  '  ' ecNumber (50):
+ '  '  '  '  ' __list (52):
+ '  '  '  '  '  ' value (52):
+ '  '  '  '  '  '  ' __value (52): str=25
+ '  '  '  '  '  ' evidences (52):
+ '  '  '  '  '  '  ' __list (52):
+ '  '  '  '  '  '  '  ' code (52):
+ '  '  '  '  '  '  '  '  ' __value (52): str=1
+ '  '  '  '  '  '  '  ' source (52):
+ '  '  '  '  '  '  '  '  ' name (52):
+ '  '  '  '  '  '  '  '  '  ' __value (52): str=2
+ '  '  '  '  '  '  '  '  ' id (52):
+ '  '  '  '  '  '  '  '  '  ' __value (52): str=25
+ '  '  '  '  '  '  '  '  ' url (52):
+ '  '  '  '  '  '  '  '  '  ' __value (52): str=25
+ '  ' alternativeName (690):
+ '  '  ' __list (1478):
+ '  '  '  ' fullName (1478):
+ '  '  '  '  ' value (1478):
+ '  '  '  '  '  ' __value (1478): str=25
+ '  '  '  '  ' evidences (301):
+ '  '  '  '  '  ' __list (323):
+ '  '  '  '  '  '  ' code (323):
+ '  '  '  '  '  '  '  ' __value (323): str=6
+ '  '  '  '  '  '  ' source (281):
+ '  '  '  '  '  '  '  ' name (281):
+ '  '  '  '  '  '  '  '  ' __value (281): str=9
+ '  '  '  '  '  '  '  ' id (281):
+ '  '  '  '  '  '  '  '  ' __value (281): num=25, str=25
+ '  '  '  '  '  '  '  ' url (281):
+ '  '  '  '  '  '  '  '  ' __value (281): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (108):
+ '  '  '  '  '  '  '  '  ' __value (108): str=25
+ '  '  '  ' shortName (382):
+ '  '  '  '  ' __list (453):
+ '  '  '  '  '  ' value (453):
+ '  '  '  '  '  '  ' __value (453): str=25
+ '  '  '  '  '  ' evidences (120):
+ '  '  '  '  '  '  ' __list (127):
+ '  '  '  '  '  '  '  ' code (127):
+ '  '  '  '  '  '  '  '  ' __value (127): str=6
+ '  '  '  '  '  '  '  ' source (122):
+ '  '  '  '  '  '  '  '  ' name (122):
+ '  '  '  '  '  '  '  '  '  ' __value (122): str=5
+ '  '  '  '  '  '  '  '  ' id (122):
+ '  '  '  '  '  '  '  '  '  ' __value (122): num=25, str=22
+ '  '  '  '  '  '  '  '  ' url (122):
+ '  '  '  '  '  '  '  '  '  ' __value (122): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (36):
+ '  '  '  '  '  '  '  '  '  ' __value (36): str=25
+ '  '  '  ' ecNumber (28):
+ '  '  '  '  ' __list (29):
+ '  '  '  '  '  ' value (29):
+ '  '  '  '  '  '  ' __value (29): str=20
+ '  '  '  '  '  ' evidences (18):
+ '  '  '  '  '  '  ' __list (24):
+ '  '  '  '  '  '  '  ' code (24):
+ '  '  '  '  '  '  '  '  ' __value (24): str=4
+ '  '  '  '  '  '  '  ' source (24):
+ '  '  '  '  '  '  '  '  ' name (24):
+ '  '  '  '  '  '  '  '  '  ' __value (24): str=3
+ '  '  '  '  '  '  '  '  ' id (24):
+ '  '  '  '  '  '  '  '  '  ' __value (24): str=5, num=15
+ '  '  '  '  '  '  '  '  ' url (24):
+ '  '  '  '  '  '  '  '  '  ' __value (24): str=20
+ '  '  '  '  '  '  '  '  ' alternativeUrl (16):
+ '  '  '  '  '  '  '  '  '  ' __value (16): str=15
+ '  ' component (42):
+ '  '  ' __list (102):
+ '  '  '  ' recommendedName (102):
+ '  '  '  '  ' fullName (102):
+ '  '  '  '  '  ' value (102):
+ '  '  '  '  '  '  ' __value (102): str=25
+ '  '  '  '  '  ' evidences (3):
+ '  '  '  '  '  '  ' __list (3):
+ '  '  '  '  '  '  '  ' code (3):
+ '  '  '  '  '  '  '  '  ' __value (3): str=1
+ '  '  '  '  '  '  '  ' source (3):
+ '  '  '  '  '  '  '  '  ' name (3):
+ '  '  '  '  '  '  '  '  '  ' __value (3): str=1
+ '  '  '  '  '  '  '  '  ' id (3):
+ '  '  '  '  '  '  '  '  '  ' __value (3): num=3
+ '  '  '  '  '  '  '  '  ' url (3):
+ '  '  '  '  '  '  '  '  '  ' __value (3): str=3
+ '  '  '  '  '  '  '  '  ' alternativeUrl (3):
+ '  '  '  '  '  '  '  '  '  ' __value (3): str=3
+ '  '  '  '  ' shortName (12):
+ '  '  '  '  '  ' __list (12):
+ '  '  '  '  '  '  ' value (12):
+ '  '  '  '  '  '  '  ' __value (12): str=8
+ '  '  '  '  '  '  ' evidences (2):
+ '  '  '  '  '  '  '  ' __list (2):
+ '  '  '  '  '  '  '  '  ' code (2):
+ '  '  '  '  '  '  '  '  '  ' __value (2): str=1
+ '  '  '  '  '  '  '  '  ' source (2):
+ '  '  '  '  '  '  '  '  '  ' name (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): str=1
+ '  '  '  '  '  '  '  '  '  ' id (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): num=2
+ '  '  '  '  '  '  '  '  '  ' url (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): str=2
+ '  '  '  '  '  '  '  '  '  ' alternativeUrl (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): str=2
+ '  '  '  '  ' ecNumber (2):
+ '  '  '  '  '  ' __list (4):
+ '  '  '  '  '  '  ' value (4):
+ '  '  '  '  '  '  '  ' __value (4): str=4
+ '  '  '  '  '  '  ' evidences (3):
+ '  '  '  '  '  '  '  ' __list (6):
+ '  '  '  '  '  '  '  '  ' code (6):
+ '  '  '  '  '  '  '  '  '  ' __value (6): str=1
+ '  '  '  '  '  '  '  '  ' source (6):
+ '  '  '  '  '  '  '  '  '  ' name (6):
+ '  '  '  '  '  '  '  '  '  '  ' __value (6): str=1
+ '  '  '  '  '  '  '  '  '  ' id (6):
+ '  '  '  '  '  '  '  '  '  '  ' __value (6): num=2
+ '  '  '  '  '  '  '  '  '  ' url (6):
+ '  '  '  '  '  '  '  '  '  '  ' __value (6): str=2
+ '  '  '  '  '  '  '  '  '  ' alternativeUrl (6):
+ '  '  '  '  '  '  '  '  '  '  ' __value (6): str=2
+ '  '  '  ' alternativeName (12):
+ '  '  '  '  ' __list (14):
+ '  '  '  '  '  ' fullName (14):
+ '  '  '  '  '  '  ' value (14):
+ '  '  '  '  '  '  '  ' __value (14): str=9
+ '  ' allergenName (4):
+ '  '  ' value (4):
+ '  '  '  ' __value (4): str=4
+ '  ' cdAntigenName (53):
+ '  '  ' __list (53):
+ '  '  '  ' value (53):
+ '  '  '  '  ' __value (53): str=25
+ '  '  '  ' evidences (1):
+ '  '  '  '  ' __list (1):
+ '  '  '  '  '  ' code (1):
+ '  '  '  '  '  '  ' __value (1): str=1
+ '  ' domain (11):
+ '  '  ' __list (22):
+ '  '  '  ' recommendedName (22):
+ '  '  '  '  ' fullName (22):
+ '  '  '  '  '  ' value (22):
+ '  '  '  '  '  '  ' __value (22): str=12
+ '  '  '  '  '  ' evidences (14):
+ '  '  '  '  '  '  ' __list (14):
+ '  '  '  '  '  '  '  ' code (14):
+ '  '  '  '  '  '  '  '  ' __value (14): str=3
+ '  '  '  '  '  '  '  ' source (13):
+ '  '  '  '  '  '  '  '  ' name (13):
+ '  '  '  '  '  '  '  '  '  ' __value (13): str=2
+ '  '  '  '  '  '  '  '  ' id (13):
+ '  '  '  '  '  '  '  '  '  ' __value (13): num=2, str=1
+ '  '  '  '  '  '  '  '  ' url (13):
+ '  '  '  '  '  '  '  '  '  ' __value (13): str=3
+ '  '  '  '  '  '  '  '  ' alternativeUrl (3):
+ '  '  '  '  '  '  '  '  '  ' __value (3): str=2
+ '  '  '  '  ' shortName (6):
+ '  '  '  '  '  ' __list (6):
+ '  '  '  '  '  '  ' value (6):
+ '  '  '  '  '  '  '  ' __value (6): str=6
+ '  '  '  '  '  '  ' evidences (2):
+ '  '  '  '  '  '  '  ' __list (2):
+ '  '  '  '  '  '  '  '  ' code (2):
+ '  '  '  '  '  '  '  '  '  ' __value (2): str=1
+ '  '  '  '  '  '  '  '  ' source (2):
+ '  '  '  '  '  '  '  '  '  ' name (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): str=1
+ '  '  '  '  '  '  '  '  '  ' id (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): num=2
+ '  '  '  '  '  '  '  '  '  ' url (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): str=2
+ '  '  '  '  '  '  '  '  '  ' alternativeUrl (2):
+ '  '  '  '  '  '  '  '  '  '  ' __value (2): str=2
+ '  '  '  '  ' ecNumber (20):
+ '  '  '  '  '  ' __list (20):
+ '  '  '  '  '  '  ' value (20):
+ '  '  '  '  '  '  '  ' __value (20): str=10
+ '  '  '  '  '  '  ' evidences (12):
+ '  '  '  '  '  '  '  ' __list (22):
+ '  '  '  '  '  '  '  '  ' code (22):
+ '  '  '  '  '  '  '  '  '  ' __value (22): str=2
+ '  '  '  '  '  '  '  '  ' source (22):
+ '  '  '  '  '  '  '  '  '  ' name (22):
+ '  '  '  '  '  '  '  '  '  '  ' __value (22): str=2
+ '  '  '  '  '  '  '  '  '  ' id (22):
+ '  '  '  '  '  '  '  '  '  '  ' __value (22): num=6, str=1
+ '  '  '  '  '  '  '  '  '  ' url (22):
+ '  '  '  '  '  '  '  '  '  '  ' __value (22): str=7
+ '  '  '  '  '  '  '  '  '  ' alternativeUrl (12):
+ '  '  '  '  '  '  '  '  '  '  ' __value (12): str=6
+ '  '  '  ' alternativeName (12):
+ '  '  '  '  ' __list (20):
+ '  '  '  '  '  ' fullName (20):
+ '  '  '  '  '  '  ' value (20):
+ '  '  '  '  '  '  '  ' __value (20): str=11
+ '  '  '  '  '  '  ' evidences (12):
+ '  '  '  '  '  '  '  ' __list (12):
+ '  '  '  '  '  '  '  '  ' code (12):
+ '  '  '  '  '  '  '  '  '  ' __value (12): str=3
+ '  '  '  '  '  '  '  '  ' source (11):
+ '  '  '  '  '  '  '  '  '  ' name (11):
+ '  '  '  '  '  '  '  '  '  '  ' __value (11): str=2
+ '  '  '  '  '  '  '  '  '  ' id (11):
+ '  '  '  '  '  '  '  '  '  '  ' __value (11): num=3, str=1
+ '  '  '  '  '  '  '  '  '  ' url (11):
+ '  '  '  '  '  '  '  '  '  '  ' __value (11): str=4
+ '  '  '  '  '  '  '  '  '  ' alternativeUrl (6):
+ '  '  '  '  '  '  '  '  '  '  ' __value (6): str=3
+ '  '  '  '  '  ' shortName (10):
+ '  '  '  '  '  '  ' __list (12):
+ '  '  '  '  '  '  '  ' value (12):
+ '  '  '  '  '  '  '  '  ' __value (12): str=10
+ '  '  '  '  '  '  '  ' evidences (8):
+ '  '  '  '  '  '  '  '  ' __list (8):
+ '  '  '  '  '  '  '  '  '  ' code (8):
+ '  '  '  '  '  '  '  '  '  '  ' __value (8): str=1
+ '  '  '  '  '  '  '  '  '  ' source (8):
+ '  '  '  '  '  '  '  '  '  '  ' name (8):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (8): str=1
+ '  '  '  '  '  '  '  '  '  '  ' id (8):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (8): num=4
+ '  '  '  '  '  '  '  '  '  '  ' url (8):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (8): str=4
+ '  '  '  '  '  '  '  '  '  '  ' alternativeUrl (8):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (8): str=4
+ '  '  '  '  '  ' ecNumber (6):
+ '  '  '  '  '  '  ' __list (6):
+ '  '  '  '  '  '  '  ' value (6):
+ '  '  '  '  '  '  '  '  ' __value (6): str=6
+ '  '  '  '  '  '  '  ' evidences (6):
+ '  '  '  '  '  '  '  '  ' __list (13):
+ '  '  '  '  '  '  '  '  '  ' code (13):
+ '  '  '  '  '  '  '  '  '  '  ' __value (13): str=1
+ '  '  '  '  '  '  '  '  '  ' source (13):
+ '  '  '  '  '  '  '  '  '  '  ' name (13):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (13): str=1
+ '  '  '  '  '  '  '  '  '  '  ' id (13):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (13): num=5
+ '  '  '  '  '  '  '  '  '  '  ' url (13):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (13): str=5
+ '  '  '  '  '  '  '  '  '  '  ' alternativeUrl (13):
+ '  '  '  '  '  '  '  '  '  '  '  ' __value (13): str=5
+ '  ' innName (1):
+ '  '  ' __list (1):
+ '  '  '  ' value (1):
+ '  '  '  '  ' __value (1): str=1
+ ' gene (1320):
+ '  ' __list (1321):
+ '  '  ' name (1092):
+ '  '  '  ' value (1092):
+ '  '  '  '  ' __value (1092): str=25, num=6
+ '  '  '  ' evidences (423):
+ '  '  '  '  ' __list (481):
+ '  '  '  '  '  ' code (481):
+ '  '  '  '  '  '  ' __value (481): str=6
+ '  '  '  '  '  ' source (481):
+ '  '  '  '  '  '  ' name (481):
+ '  '  '  '  '  '  '  ' __value (481): str=20
+ '  '  '  '  '  '  ' id (481):
+ '  '  '  '  '  '  '  ' __value (481): str=25, num=25
+ '  '  '  '  '  '  ' url (481):
+ '  '  '  '  '  '  '  ' __value (481): str=25
+ '  '  '  '  '  '  ' alternativeUrl (55):
+ '  '  '  '  '  '  '  ' __value (55): str=25
+ '  '  ' olnNames (560):
+ '  '  '  ' __list (637):
+ '  '  '  '  ' value (637):
+ '  '  '  '  '  ' __value (637): str=25, num=1
+ '  '  '  '  ' evidences (201):
+ '  '  '  '  '  ' __list (201):
+ '  '  '  '  '  '  ' code (201):
+ '  '  '  '  '  '  '  ' __value (201): str=3
+ '  '  '  '  '  '  ' source (200):
+ '  '  '  '  '  '  '  ' name (200):
+ '  '  '  '  '  '  '  '  ' __value (200): str=3
+ '  '  '  '  '  '  '  ' id (200):
+ '  '  '  '  '  '  '  '  ' __value (200): str=25
+ '  '  '  '  '  '  '  ' url (200):
+ '  '  '  '  '  '  '  '  ' __value (200): str=25
+ '  '  ' synonyms (442):
+ '  '  '  ' __list (768):
+ '  '  '  '  ' value (768):
+ '  '  '  '  '  ' __value (768): str=25, num=1
+ '  '  '  '  ' evidences (188):
+ '  '  '  '  '  ' __list (191):
+ '  '  '  '  '  '  ' code (191):
+ '  '  '  '  '  '  '  ' __value (191): str=5
+ '  '  '  '  '  '  ' source (191):
+ '  '  '  '  '  '  '  ' name (191):
+ '  '  '  '  '  '  '  '  ' __value (191): str=9
+ '  '  '  '  '  '  '  ' id (191):
+ '  '  '  '  '  '  '  '  ' __value (191): str=25, num=25
+ '  '  '  '  '  '  '  ' url (191):
+ '  '  '  '  '  '  '  '  ' __value (191): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (34):
+ '  '  '  '  '  '  '  '  ' __value (34): str=25
+ '  '  ' orfNames (277):
+ '  '  '  ' __list (365):
+ '  '  '  '  ' value (365):
+ '  '  '  '  '  ' __value (365): str=25
+ '  '  '  '  ' evidences (178):
+ '  '  '  '  '  ' __list (184):
+ '  '  '  '  '  '  ' code (184):
+ '  '  '  '  '  '  '  ' __value (184): str=3
+ '  '  '  '  '  '  ' source (184):
+ '  '  '  '  '  '  '  ' name (184):
+ '  '  '  '  '  '  '  '  ' __value (184): str=4
+ '  '  '  '  '  '  '  ' id (184):
+ '  '  '  '  '  '  '  '  ' __value (184): str=25, num=1
+ '  '  '  '  '  '  '  ' url (184):
+ '  '  '  '  '  '  '  '  ' __value (184): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (1):
+ '  '  '  '  '  '  '  '  ' __value (1): str=1
+ ' comments (1107):
+ '  ' __list (7819):
+ '  '  ' type (7819):
+ '  '  '  ' __value (7819): str=25
+ '  '  ' text (5708):
+ '  '  '  ' __list (5450):
+ '  '  '  '  ' value (5450):
+ '  '  '  '  '  ' __value (5450): str=25
+ '  '  '  '  ' evidences (4375):
+ '  '  '  '  '  ' __list (9865):
+ '  '  '  '  '  '  ' code (9865):
+ '  '  '  '  '  '  '  ' __value (9865): str=9
+ '  '  '  '  '  '  ' source (8796):
+ '  '  '  '  '  '  '  ' name (8796):
+ '  '  '  '  '  '  '  '  ' __value (8796): str=11
+ '  '  '  '  '  '  '  ' id (8796):
+ '  '  '  '  '  '  '  '  ' __value (8796): str=25, num=25
+ '  '  '  '  '  '  '  ' url (8796):
+ '  '  '  '  '  '  '  '  ' __value (8796): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (7472):
+ '  '  '  '  '  '  '  '  ' __value (7472): str=25
+ '  '  '  ' __value (258): str=25
+ '  '  ' cofactors (137):
+ '  '  '  ' __list (167):
+ '  '  '  '  ' name (167):
+ '  '  '  '  '  ' __value (167): str=21
+ '  '  '  '  ' dbReference (167):
+ '  '  '  '  '  ' type (167):
+ '  '  '  '  '  '  ' __value (167): str=1
+ '  '  '  '  '  ' id (167):
+ '  '  '  '  '  '  ' __value (167): str=21
+ '  '  '  '  ' evidences (130):
+ '  '  '  '  '  ' __list (188):
+ '  '  '  '  '  '  ' code (188):
+ '  '  '  '  '  '  '  ' __value (188): str=5
+ '  '  '  '  '  '  ' source (174):
+ '  '  '  '  '  '  '  ' name (174):
+ '  '  '  '  '  '  '  '  ' __value (174): str=8
+ '  '  '  '  '  '  '  ' id (174):
+ '  '  '  '  '  '  '  '  ' __value (174): num=25, str=23
+ '  '  '  '  '  '  '  ' url (174):
+ '  '  '  '  '  '  '  '  ' __value (174): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (115):
+ '  '  '  '  '  '  '  '  ' __value (115): str=25
+ '  '  ' locations (881):
+ '  '  '  ' __list (1524):
+ '  '  '  '  ' location (1523):
+ '  '  '  '  '  ' value (1523):
+ '  '  '  '  '  '  ' __value (1523): str=25
+ '  '  '  '  '  ' evidences (1096):
+ '  '  '  '  '  '  ' __list (1483):
+ '  '  '  '  '  '  '  ' code (1483):
+ '  '  '  '  '  '  '  '  ' __value (1483): str=6
+ '  '  '  '  '  '  '  ' source (1294):
+ '  '  '  '  '  '  '  '  ' name (1294):
+ '  '  '  '  '  '  '  '  '  ' __value (1294): str=8
+ '  '  '  '  '  '  '  '  ' id (1294):
+ '  '  '  '  '  '  '  '  '  ' __value (1294): str=25, num=25
+ '  '  '  '  '  '  '  '  ' url (1294):
+ '  '  '  '  '  '  '  '  '  ' __value (1294): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (963):
+ '  '  '  '  '  '  '  '  '  ' __value (963): str=25
+ '  '  '  '  ' topology (337):
+ '  '  '  '  '  ' value (337):
+ '  '  '  '  '  '  ' __value (337): str=8
+ '  '  '  '  '  ' evidences (219):
+ '  '  '  '  '  '  ' __list (270):
+ '  '  '  '  '  '  '  ' code (270):
+ '  '  '  '  '  '  '  '  ' __value (270): str=5
+ '  '  '  '  '  '  '  ' source (167):
+ '  '  '  '  '  '  '  '  ' name (167):
+ '  '  '  '  '  '  '  '  '  ' __value (167): str=7
+ '  '  '  '  '  '  '  '  ' id (167):
+ '  '  '  '  '  '  '  '  '  ' __value (167): str=25, num=25
+ '  '  '  '  '  '  '  '  ' url (167):
+ '  '  '  '  '  '  '  '  '  ' __value (167): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (112):
+ '  '  '  '  '  '  '  '  '  ' __value (112): str=25
+ '  '  '  '  ' orientation (65):
+ '  '  '  '  '  ' value (65):
+ '  '  '  '  '  '  ' __value (65): str=5
+ '  '  '  '  '  ' evidences (34):
+ '  '  '  '  '  '  ' __list (46):
+ '  '  '  '  '  '  '  ' code (46):
+ '  '  '  '  '  '  '  '  ' __value (46): str=5
+ '  '  '  '  '  '  '  ' source (35):
+ '  '  '  '  '  '  '  '  ' name (35):
+ '  '  '  '  '  '  '  '  '  ' __value (35): str=4
+ '  '  '  '  '  '  '  '  ' id (35):
+ '  '  '  '  '  '  '  '  '  ' __value (35): num=25, str=4
+ '  '  '  '  '  '  '  '  ' url (35):
+ '  '  '  '  '  '  '  '  '  ' __value (35): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (29):
+ '  '  '  '  '  '  '  '  '  ' __value (29): str=25
+ '  '  '  '  ' value (1):
+ '  '  '  '  '  ' __value (1): num=1
+ '  '  '  '  ' evidences (1):
+ '  '  '  '  '  ' __list (1):
+ '  '  '  '  '  '  ' code (1):
+ '  '  '  '  '  '  '  ' __value (1): str=1
+ '  '  '  '  '  '  ' source (1):
+ '  '  '  '  '  '  '  ' name (1):
+ '  '  '  '  '  '  '  '  ' __value (1): str=1
+ '  '  '  '  '  '  '  ' id (1):
+ '  '  '  '  '  '  '  '  ' __value (1): num=1
+ '  '  '  '  '  '  '  ' url (1):
+ '  '  '  '  '  '  '  '  ' __value (1): str=1
+ '  '  '  '  '  '  '  ' alternativeUrl (1):
+ '  '  '  '  '  '  '  '  ' __value (1): str=1
+ '  '  ' reaction (452):
+ '  '  '  ' name (452):
+ '  '  '  '  ' __value (452): str=25
+ '  '  '  ' dbReferences (367):
+ '  '  '  '  ' __list (2073):
+ '  '  '  '  '  ' type (2073):
+ '  '  '  '  '  '  ' __value (2073): str=2
+ '  '  '  '  '  ' id (2073):
+ '  '  '  '  '  '  ' __value (2073): str=25
+ '  '  '  ' ecNumber (419):
+ '  '  '  '  ' __value (419): str=25
+ '  '  '  ' evidences (324):
+ '  '  '  '  ' __list (540):
+ '  '  '  '  '  ' code (540):
+ '  '  '  '  '  '  ' __value (540): str=5
+ '  '  '  '  '  ' source (534):
+ '  '  '  '  '  '  ' name (534):
+ '  '  '  '  '  '  '  ' __value (534): str=8
+ '  '  '  '  '  '  ' id (534):
+ '  '  '  '  '  '  '  ' __value (534): num=25, str=25
+ '  '  '  '  '  '  ' url (534):
+ '  '  '  '  '  '  '  ' __value (534): str=25
+ '  '  '  '  '  '  ' alternativeUrl (325):
+ '  '  '  '  '  '  '  ' __value (325): str=25
+ '  '  ' kinetics (89):
+ '  '  '  ' km (85):
+ '  '  '  '  ' __list (281):
+ '  '  '  '  '  ' value (281):
+ '  '  '  '  '  '  ' __value (281): str=25
+ '  '  '  '  '  ' evidences (281):
+ '  '  '  '  '  '  ' __list (359):
+ '  '  '  '  '  '  '  ' code (359):
+ '  '  '  '  '  '  '  '  ' __value (359): str=1
+ '  '  '  '  '  '  '  ' source (359):
+ '  '  '  '  '  '  '  '  ' name (359):
+ '  '  '  '  '  '  '  '  '  ' __value (359): str=2
+ '  '  '  '  '  '  '  '  ' id (359):
+ '  '  '  '  '  '  '  '  '  ' __value (359): str=2, num=25
+ '  '  '  '  '  '  '  '  ' url (359):
+ '  '  '  '  '  '  '  '  '  ' __value (359): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (354):
+ '  '  '  '  '  '  '  '  '  ' __value (354): str=25
+ '  '  '  ' vmax (29):
+ '  '  '  '  ' __list (65):
+ '  '  '  '  '  ' value (65):
+ '  '  '  '  '  '  ' __value (65): str=25
+ '  '  '  '  '  ' evidences (65):
+ '  '  '  '  '  '  ' __list (86):
+ '  '  '  '  '  '  '  ' code (86):
+ '  '  '  '  '  '  '  '  ' __value (86): str=1
+ '  '  '  '  '  '  '  ' source (86):
+ '  '  '  '  '  '  '  '  ' name (86):
+ '  '  '  '  '  '  '  '  '  ' __value (86): str=2
+ '  '  '  '  '  '  '  '  ' id (86):
+ '  '  '  '  '  '  '  '  '  ' __value (86): str=1, num=25
+ '  '  '  '  '  '  '  '  ' url (86):
+ '  '  '  '  '  '  '  '  '  ' __value (86): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (85):
+ '  '  '  '  '  '  '  '  '  ' __value (85): str=25
+ '  '  '  ' text (36):
+ '  '  '  '  ' __list (36):
+ '  '  '  '  '  ' value (36):
+ '  '  '  '  '  '  ' __value (36): str=25
+ '  '  '  '  '  ' evidences (18):
+ '  '  '  '  '  '  ' __list (23):
+ '  '  '  '  '  '  '  ' code (23):
+ '  '  '  '  '  '  '  '  ' __value (23): str=1
+ '  '  '  '  '  '  '  ' source (23):
+ '  '  '  '  '  '  '  '  ' name (23):
+ '  '  '  '  '  '  '  '  '  ' __value (23): str=1
+ '  '  '  '  '  '  '  '  ' id (23):
+ '  '  '  '  '  '  '  '  '  ' __value (23): num=21
+ '  '  '  '  '  '  '  '  ' url (23):
+ '  '  '  '  '  '  '  '  '  ' __value (23): str=21
+ '  '  '  '  '  '  '  '  ' alternativeUrl (23):
+ '  '  '  '  '  '  '  '  '  ' __value (23): str=21
+ '  '  ' phDependence (47):
+ '  '  '  ' __list (47):
+ '  '  '  '  ' value (47):
+ '  '  '  '  '  ' __value (47): str=25
+ '  '  '  '  ' evidences (38):
+ '  '  '  '  '  ' __list (50):
+ '  '  '  '  '  '  ' code (50):
+ '  '  '  '  '  '  '  ' __value (50): str=1
+ '  '  '  '  '  '  ' source (50):
+ '  '  '  '  '  '  '  ' name (50):
+ '  '  '  '  '  '  '  '  ' __value (50): str=2
+ '  '  '  '  '  '  '  ' id (50):
+ '  '  '  '  '  '  '  '  ' __value (50): str=2, num=25
+ '  '  '  '  '  '  '  ' url (50):
+ '  '  '  '  '  '  '  '  ' __value (50): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (48):
+ '  '  '  '  '  '  '  '  ' __value (48): str=25
+ '  '  ' temperatureDependence (35):
+ '  '  '  ' __list (35):
+ '  '  '  '  ' value (35):
+ '  '  '  '  '  ' __value (35): str=25
+ '  '  '  '  ' evidences (28):
+ '  '  '  '  '  ' __list (35):
+ '  '  '  '  '  '  ' code (35):
+ '  '  '  '  '  '  '  ' __value (35): str=1
+ '  '  '  '  '  '  ' source (35):
+ '  '  '  '  '  '  '  ' name (35):
+ '  '  '  '  '  '  '  '  ' __value (35): str=2
+ '  '  '  '  '  '  '  ' id (35):
+ '  '  '  '  '  '  '  '  ' __value (35): str=1, num=25
+ '  '  '  '  '  '  '  ' url (35):
+ '  '  '  '  '  '  '  '  ' __value (35): str=25
+ '  '  '  '  '  '  '  ' alternativeUrl (34):
+ '  '  '  '  '  '  '  '  ' __value (34): str=25
+ '  '  ' method (29):
+ '  '  '  ' __value (29): str=3
+ '  '  ' mass (29):
+ '  '  '  ' __value (29): num=25
+ '  '  ' error (29):
+ '  '  '  ' __value (29): num=9
+ '  '  ' evidences (331):
+ '  '  '  ' __list (331):
+ '  '  '  '  ' code (331):
+ '  '  '  '  '  ' __value (331): str=3
+ '  '  '  '  ' source (34):
+ '  '  '  '  '  ' name (34):
+ '  '  '  '  '  '  ' __value (34): str=3
+ '  '  '  '  '  ' id (34):
+ '  '  '  '  '  '  ' __value (34): str=2, num=24
+ '  '  '  '  '  ' url (34):
+ '  '  '  '  '  '  ' __value (34): str=25
+ '  '  '  '  '  ' alternativeUrl (32):
+ '  '  '  '  '  '  ' __value (32): str=24
+ '  '  ' interactions (467):
+ '  '  '  ' __list (2713):
+ '  '  '  '  ' interactionType (2713):
+ '  '  '  '  '  ' __value (2713): str=3
+ '  '  '  '  ' id (2616):
+ '  '  '  '  '  ' __value (2616): str=25
+ '  '  '  '  ' gene (2616):
+ '  '  '  '  '  ' __value (2616): str=25, num=2
+ '  '  '  '  ' interactor1 (2713):
+ '  '  '  '  '  ' __value (2713): str=25
+ '  '  '  '  ' interactor2 (2713):
+ '  '  '  '  '  ' __value (2713): str=25
+ '  '  '  '  ' organismDiffer (2713):
+ '  '  '  '  '  ' __value (2713): num=2
+ '  '  '  '  ' experiments (2713):
+ '  '  '  '  '  ' __value (2713): num=25
+ '  '  ' event (201):
+ '  '  '  ' __list (208):
+ '  '  '  '  ' __value (208): str=3
+ '  '  ' isoforms (201):
+ '  '  '  ' __list (729):
+ '  '  '  '  ' ids (729):
+ '  '  '  '  '  ' __list (733):
+ '  '  '  '  '  '  ' __value (733): str=25
+ '  '  '  '  ' name (729):
+ '  '  '  '  '  ' value (729):
+ '  '  '  '  '  '  ' __value (729): num=19, str=25
+ '  '  '  '  '  ' evidences (10):
+ '  '  '  '  '  '  ' __list (10):
+ '  '  '  '  '  '  '  ' code (10):
+ '  '  '  '  '  '  '  '  ' __value (10): str=3
+ '  '  '  '  '  '  '  ' source (6):
+ '  '  '  '  '  '  '  '  ' name (6):
+ '  '  '  '  '  '  '  '  '  ' __value (6): str=1
+ '  '  '  '  '  '  '  '  ' id (6):
+ '  '  '  '  '  '  '  '  '  ' __value (6): num=4
+ '  '  '  '  '  '  '  '  ' url (6):
+ '  '  '  '  '  '  '  '  '  ' __value (6): str=4
+ '  '  '  '  '  '  '  '  ' alternativeUrl (6):
+ '  '  '  '  '  '  '  '  '  ' __value (6): str=4
+ '  '  '  '  ' sequenceStatus (729):
+ '  '  '  '  '  ' __value (729): str=4
+ '  '  '  '  ' sequence (525):
+ '  '  '  '  '  ' __list (883):
+ '  '  '  '  '  '  ' __value (883): str=25
+ '  '  '  '  ' synonyms (215):
+ '  '  '  '  '  ' __list (269):
+ '  '  '  '  '  '  ' value (269):
+ '  '  '  '  '  '  '  ' __value (269): str=25, num=17
+ '  '  '  '  '  '  ' evidences (21):
+ '  '  '  '  '  '  '  ' __list (27):
+ '  '  '  '  '  '  '  '  ' code (27):
+ '  '  '  '  '  '  '  '  '  ' __value (27): str=1
+ '  '  '  '  '  '  '  '  ' source (27):
+ '  '  '  '  '  '  '  '  '  ' name (27):
+ '  '  '  '  '  '  '  '  '  '  ' __value (27): str=1
+ '  '  '  '  '  '  '  '  '  ' id (27):
+ '  '  '  '  '  '  '  '  '  '  ' __value (27): num=10
+ '  '  '  '  '  '  '  '  '  ' url (27):
+ '  '  '  '  '  '  '  '  '  '  ' __value (27): str=10
+ '  '  '  '  '  '  '  '  '  ' alternativeUrl (27):
+ '  '  '  '  '  '  '  '  '  '  ' __value (27): str=10
+ '  '  ' diseaseId (182):
+ '  '  '  ' __value (182): str=25
+ '  '  ' acronym (182):
+ '  '  '  ' __value (182): str=25
+ '  '  ' dbReference (182):
+ '  '  '  ' type (182):
+ '  '  '  '  ' __value (182): str=1
+ '  '  '  ' id (182):
+ '  '  '  '  ' __value (182): num=25
+ '  '  ' description (182):
+ '  '  '  ' value (182):
+ '  '  '  '  ' __value (182): str=25
+ '  '  '  ' evidences (170):
+ '  '  '  '  ' __list (680):
+ '  '  '  '  '  ' code (680):
+ '  '  '  '  '  '  ' __value (680): str=1
+ '  '  '  '  '  ' source (680):
+ '  '  '  '  '  '  ' name (680):
+ '  '  '  '  '  '  '  ' __value (680): str=2
+ '  '  '  '  '  '  ' id (680):
+ '  '  '  '  '  '  '  ' __value (680): num=25, str=5
+ '  '  '  '  '  '  ' url (680):
+ '  '  '  '  '  '  '  ' __value (680): str=25
+ '  '  '  '  '  '  ' alternativeUrl (675):
+ '  '  '  '  '  '  '  ' __value (675): str=25
+ '  '  ' conflictType (302):
+ '  '  '  ' __value (302): str=6
+ '  '  ' sequence (302):
+ '  '  '  ' __value (302): str=25
+ '  '  ' molecule (208):
+ '  '  '  ' __value (208): str=25
+ '  '  ' name (160):
+ '  '  '  ' __value (160): str=25
+ '  '  ' url (160):
+ '  '  '  ' __value (160): str=25
+ '  '  ' comment (22):
+ '  '  '  ' __list (22):
+ '  '  '  '  ' value (22):
+ '  '  '  '  '  ' __value (22): str=12
+ '  '  '  '  ' evidences (1):
+ '  '  '  '  '  ' __list (2):
+ '  '  '  '  '  '  ' code (2):
+ '  '  '  '  '  '  '  ' __value (2): str=1
+ '  '  '  '  '  '  ' source (2):
+ '  '  '  '  '  '  '  ' name (2):
+ '  '  '  '  '  '  '  '  ' __value (2): str=1
+ '  '  '  '  '  '  '  ' id (2):
+ '  '  '  '  '  '  '  '  ' __value (2): num=2
+ '  '  '  '  '  '  '  ' url (2):
+ '  '  '  '  '  '  '  '  ' __value (2): str=2
+ '  '  '  '  '  '  '  ' alternativeUrl (2):
+ '  '  '  '  '  '  '  '  ' __value (2): str=2
+ '  '  ' physiologicalReactions (8):
+ '  '  '  ' __list (8):
+ '  '  '  '  ' direction (8):
+ '  '  '  '  '  ' __value (8): str=1
+ '  '  '  '  ' dbReference (8):
+ '  '  '  '  '  ' type (8):
+ '  '  '  '  '  '  ' __value (8): str=1
+ '  '  '  '  '  ' id (8):
+ '  '  '  '  '  '  ' __value (8): str=7
+ '  '  '  '  ' evidences (8):
+ '  '  '  '  '  ' __list (13):
+ '  '  '  '  '  '  ' code (13):
+ '  '  '  '  '  '  '  ' __value (13): str=3
+ '  '  '  '  '  '  ' source (11):
+ '  '  '  '  '  '  '  ' name (11):
+ '  '  '  '  '  '  '  '  ' __value (11): str=2
+ '  '  '  '  '  '  '  ' id (11):
+ '  '  '  '  '  '  '  '  ' __value (11): num=4, str=1
+ '  '  '  '  '  '  '  ' url (11):
+ '  '  '  '  '  '  '  '  ' __value (11): str=5
+ '  '  '  '  '  '  '  ' alternativeUrl (10):
+ '  '  '  '  '  '  '  '  ' __value (10): str=4
+ '  '  ' locationType (1):
+ '  '  '  ' __value (1): str=1
+ ' features (1347):
+ '  ' __list (63936):
+ '  '  ' type (63936):
+ '  '  '  ' __value (63936): str=25
+ '  '  ' category (63936):
+ '  '  '  ' __value (63936): str=8
+ '  '  ' ftId (6430):
+ '  '  '  ' __value (6430): str=25
+ '  '  ' description (26183):
+ '  '  '  ' __value (26183): str=25, num=23
+ '  '  ' begin (63936):
+ '  '  '  ' __value (63936): num=25, str=2
+ '  '  ' end (63936):
+ '  '  '  ' __value (63936): num=25, str=1
+ '  '  ' molecule (63936):
+ '  '  '  ' __value (63936): str=25
+ '  '  ' evidences (57399):
+ '  '  '  ' __list (64622):
+ '  '  '  '  ' code (64622):
+ '  '  '  '  '  ' __value (64622): str=11
+ '  '  '  '  ' source (60559):
+ '  '  '  '  '  ' name (60559):
+ '  '  '  '  '  '  ' __value (60559): str=13
+ '  '  '  '  '  ' id (60559):
+ '  '  '  '  '  '  ' __value (60559): str=25, num=25
+ '  '  '  '  '  ' url (60559):
+ '  '  '  '  '  '  ' __value (60559): str=25
+ '  '  '  '  '  ' alternativeUrl (13448):
+ '  '  '  '  '  '  ' __value (13448): str=25
+ '  '  ' alternativeSequence (6744):
+ '  '  '  ' __value (6744): str=25
+ ' dbReferences (1413):
+ '  ' __list (97673):
+ '  '  ' type (97673):
+ '  '  '  ' __value (97673): str=25
+ '  '  ' id (97673):
+ '  '  '  ' __value (97673): str=25, num=25
+ '  '  ' properties (64176):
+ '  '  '  ' molecule type (6478):
+ '  '  '  '  ' __value (6478): str=7
+ '  '  '  ' protein sequence ID (7456):
+ '  '  '  '  ' __value (7456): str=25
+ '  '  '  ' nucleotide sequence ID (2172):
+ '  '  '  '  ' __value (2172): str=25
+ '  '  '  ' method (9263):
+ '  '  '  '  ' __value (9263): str=5
+ '  '  '  ' chains (9263):
+ '  '  '  '  ' __value (9263): str=25
+ '  '  '  ' resolution (8848):
+ '  '  '  '  ' __value (8848): str=25
+ '  '  '  ' gene ID (1836):
+ '  '  '  '  ' __value (1836): str=25
+ '  '  '  ' taxonomic scope (1892):
+ '  '  '  '  ' __value (1892): str=4
+ '  '  '  ' component (1287):
+ '  '  '  '  ' __value (1287): str=25
+ '  '  '  ' term (15463):
+ '  '  '  '  ' __value (15463): str=25
+ '  '  '  ' source (15463):
+ '  '  '  '  ' __value (15463): str=25
+ '  '  '  ' match status (9425):
+ '  '  '  '  ' __value (9425): num=25
+ '  '  '  ' entry name (16177):
+ '  '  '  '  ' __value (16177): str=25, num=2
+ '  '  '  ' interactions (1163):
+ '  '  '  '  ' __value (1163): num=25
+ '  '  '  ' organism name (703):
+ '  '  '  '  ' __value (703): str=6
+ '  '  '  ' gene designation (543):
+ '  '  '  '  ' __value (543): str=25
+ '  '  '  ' expression patterns (753):
+ '  '  '  '  ' __value (753): str=25
+ '  '  '  ' family name (229):
+ '  '  '  '  ' __value (229): str=25
+ '  '  '  ' organism ID (619):
+ '  '  '  '  ' __value (619): num=25, str=8
+ '  '  '  ' type (473):
+ '  '  '  '  ' __value (473): str=5
+ '  '  '  ' pathway name (2244):
+ '  '  '  '  ' __value (2244): str=25
+ '  '  '  ' development level (267):
+ '  '  '  '  ' __value (267): str=4
+ '  '  '  ' status (1463):
+ '  '  '  '  ' __value (1463): str=6
+ '  '  '  ' disease (261):
+ '  '  '  '  ' __value (261): str=25
+ '  '  '  ' reaction ID (167):
+ '  '  '  '  ' __value (167): str=25
+ '  '  '  ' generic name (765):
+ '  '  '  '  ' __value (765): str=25
+ '  '  '  ' allergen name (18):
+ '  '  '  '  ' __value (18): str=18
+ '  '  ' evidences (8318):
+ '  '  '  ' __list (9606):
+ '  '  '  '  ' code (9606):
+ '  '  '  '  '  ' __value (9606): str=1
+ '  '  '  '  ' source (9606):
+ '  '  '  '  '  ' name (9606):
+ '  '  '  '  '  '  ' __value (9606): str=1
+ '  '  '  '  '  ' id (9606):
+ '  '  '  '  '  '  ' __value (9606): num=25
+ '  '  '  '  '  ' url (9606):
+ '  '  '  '  '  '  ' __value (9606): str=25
+ '  '  '  '  '  ' alternativeUrl (9606):
+ '  '  '  '  '  '  ' __value (9606): str=25
+ '  '  ' isoform (2424):
+ '  '  '  ' __value (2424): str=25
+ ' keywords (1413):
+ '  ' __list (12016):
+ '  '  ' value (12016):
+ '  '  '  ' __value (12016): str=25
+ '  '  ' evidences (1714):
+ '  '  '  ' __list (2549):
+ '  '  '  '  ' code (2549):
+ '  '  '  '  '  ' __value (2549): str=3
+ '  '  '  '  ' source (2549):
+ '  '  '  '  '  ' name (2549):
+ '  '  '  '  '  '  ' __value (2549): str=13
+ '  '  '  '  '  ' id (2549):
+ '  '  '  '  '  '  ' __value (2549): str=25, num=1
+ '  '  '  '  '  ' url (2549):
+ '  '  '  '  '  '  ' __value (2549): str=25
+ ' references (1413):
+ '  ' __list (13365):
+ '  '  ' citation (13365):
+ '  '  '  ' type (13365):
+ '  '  '  '  ' __value (13365): str=7
+ '  '  '  ' publicationDate (13365):
+ '  '  '  '  ' __value (13365): num=25, str=25
+ '  '  '  ' title (12819):
+ '  '  '  '  ' __value (12819): str=25
+ '  '  '  ' authors (12870):
+ '  '  '  '  ' __list (186026):
+ '  '  '  '  '  ' __value (186026): str=25
+ '  '  '  ' publication (13362):
+ '  '  '  '  ' journalName (12217):
+ '  '  '  '  '  ' __value (12217): str=25
+ '  '  '  '  ' submissionDatabase (1138):
+ '  '  '  '  '  ' __value (1138): str=4
+ '  '  '  '  ' institute (4):
+ '  '  '  '  '  ' __value (4): str=4
+ '  '  '  '  ' address (6):
+ '  '  '  '  '  ' __value (6): str=6
+ '  '  '  '  ' bookName (2):
+ '  '  '  '  '  ' __value (2): str=2
+ '  '  '  '  ' editors (2):
+ '  '  '  '  '  ' __list (3):
+ '  '  '  '  '  '  ' __value (3): str=3
+ '  '  '  '  ' publisher (2):
+ '  '  '  '  '  ' __value (2): str=2
+ '  '  '  '  ' patentNumber (1):
+ '  '  '  '  '  ' __value (1): str=1
+ '  '  '  ' location (12219):
+ '  '  '  '  ' volume (12213):
+ '  '  '  '  '  ' __value (12213): num=25, str=4
+ '  '  '  '  ' firstPage (12215):
+ '  '  '  '  '  ' __value (12215): num=25, str=25
+ '  '  '  '  ' lastPage (12215):
+ '  '  '  '  '  ' __value (12215): num=25, str=25
+ '  '  '  '  ' locator (4):
+ '  '  '  '  '  ' __value (4): str=4
+ '  '  '  ' dbReferences (12151):
+ '  '  '  '  ' __list (23637):
+ '  '  '  '  '  ' type (23637):
+ '  '  '  '  '  '  ' __value (23637): str=3
+ '  '  '  '  '  ' id (23637):
+ '  '  '  '  '  '  ' __value (23637): num=25, str=25
+ '  '  '  ' consortiums (587):
+ '  '  '  '  ' __list (593):
+ '  '  '  '  '  ' __value (593): str=25
+ '  '  ' source (4104):
+ '  '  '  ' strain (2322):
+ '  '  '  '  ' __list (2591):
+ '  '  '  '  '  ' value (2591):
+ '  '  '  '  '  '  ' __value (2591): str=25, num=25
+ '  '  '  '  '  ' evidences (793):
+ '  '  '  '  '  '  ' __list (918):
+ '  '  '  '  '  '  '  ' code (918):
+ '  '  '  '  '  '  '  '  ' __value (918): str=4
+ '  '  '  '  '  '  '  ' source (917):
+ '  '  '  '  '  '  '  '  ' name (917):
+ '  '  '  '  '  '  '  '  '  ' __value (917): str=9
+ '  '  '  '  '  '  '  '  ' id (917):
+ '  '  '  '  '  '  '  '  '  ' __value (917): str=25, num=25
+ '  '  '  '  '  '  '  '  ' url (917):
+ '  '  '  '  '  '  '  '  '  ' __value (917): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (29):
+ '  '  '  '  '  '  '  '  '  ' __value (29): str=25
+ '  '  '  ' tissue (1960):
+ '  '  '  '  ' __list (2552):
+ '  '  '  '  '  ' value (2552):
+ '  '  '  '  '  '  ' __value (2552): str=25
+ '  '  '  '  '  ' evidences (39):
+ '  '  '  '  '  '  ' __list (39):
+ '  '  '  '  '  '  '  ' code (39):
+ '  '  '  '  '  '  '  '  ' __value (39): str=3
+ '  '  '  '  '  '  '  ' source (39):
+ '  '  '  '  '  '  '  '  ' name (39):
+ '  '  '  '  '  '  '  '  '  ' __value (39): str=3
+ '  '  '  '  '  '  '  '  ' id (39):
+ '  '  '  '  '  '  '  '  '  ' __value (39): str=25, num=8
+ '  '  '  '  '  '  '  '  ' url (39):
+ '  '  '  '  '  '  '  '  '  ' __value (39): str=25
+ '  '  '  '  '  '  '  '  ' alternativeUrl (10):
+ '  '  '  '  '  '  '  '  '  ' __value (10): str=8
+ '  '  '  ' plasmid (72):
+ '  '  '  '  ' __list (73):
+ '  '  '  '  '  ' value (73):
+ '  '  '  '  '  '  ' __value (73): str=25
+ '  '  '  '  '  ' evidences (28):
+ '  '  '  '  '  '  ' __list (30):
+ '  '  '  '  '  '  '  ' code (30):
+ '  '  '  '  '  '  '  '  ' __value (30): str=1
+ '  '  '  '  '  '  '  ' source (30):
+ '  '  '  '  '  '  '  '  ' name (30):
+ '  '  '  '  '  '  '  '  '  ' __value (30): str=2
+ '  '  '  '  '  '  '  '  ' id (30):
+ '  '  '  '  '  '  '  '  '  ' __value (30): str=19
+ '  '  '  '  '  '  '  '  ' url (30):
+ '  '  '  '  '  '  '  '  '  ' __value (30): str=19
+ '  '  ' scope (13365):
+ '  '  '  ' __list (22629):
+ '  '  '  '  ' __value (22629): str=25
+ '  '  ' evidences (1712):
+ '  '  '  ' __list (2638):
+ '  '  '  '  ' code (2638):
+ '  '  '  '  '  ' __value (2638): str=5
+ '  '  '  '  ' source (2554):
+ '  '  '  '  '  ' name (2554):
+ '  '  '  '  '  '  ' __value (2554): str=8
+ '  '  '  '  '  ' id (2554):
+ '  '  '  '  '  '  ' __value (2554): str=25, num=2
+ '  '  '  '  '  ' url (2554):
+ '  '  '  '  '  '  ' __value (2554): str=25
+ '  '  '  '  '  ' alternativeUrl (1):
+ '  '  '  '  '  '  ' __value (1): str=1
+ ' sequence (1413):
+ '  ' version (1413):
+ '  '  ' __value (1413): num=5
+ '  ' length (1413):
+ '  '  ' __value (1413): num=25
+ '  ' mass (1413):
+ '  '  ' __value (1413): num=25
+ '  ' modified (1413):
+ '  '  ' __value (1413): str=25
+ '  ' sequence (1413):
+ '  '  ' __value (1413): str=25
+ ' secondaryAccession (652):
+ '  ' __list (2036):
+ '  '  ' __value (2036): str=25
+ ' organismHost (24):
+ '  ' __list (39):
+ '  '  ' taxonomy (39):
+ '  '  '  ' __value (39): num=23
+ '  '  ' names (39):
+ '  '  '  ' __list (59):
+ '  '  '  '  ' type (59):
+ '  '  '  '  '  ' __value (59): str=3
+ '  '  '  '  ' value (59):
+ '  '  '  '  '  ' __value (59): str=25
+ ' __value (20): NoneType=1
+ ' geneLocations (25):
+ '  ' __list (42):
+ '  '  ' type (42):
+ '  '  '  ' __value (42): str=2
+ '  '  ' evidences (19):
+ '  '  '  ' __list (26):
+ '  '  '  '  ' code (26):
+ '  '  '  '  '  ' __value (26): str=2
+ '  '  '  '  ' source (26):
+ '  '  '  '  '  ' name (26):
+ '  '  '  '  '  '  ' __value (26): str=3
+ '  '  '  '  '  ' id (26):
+ '  '  '  '  '  '  ' __value (26): str=24, num=1
+ '  '  '  '  '  ' url (26):
+ '  '  '  '  '  '  ' __value (26): str=25
+ '  '  '  '  '  ' alternativeUrl (1):
+ '  '  '  '  '  '  ' __value (1): str=1
+ '  '  ' name (41):
+ '  '  '  ' __value (41): str=25
